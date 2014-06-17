@@ -4,5 +4,7 @@
   "private": true,
   "dependencies": {
     "request": "~2.36.0",
+    "restify": "~2.8.1",
+    "underscore": "~1.6.0"
   }
 }
