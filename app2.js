@@ -1,7 +1,12 @@
-var request = require('request');
-var restify = require('restify');
-var countries = require('./db/countries');
-var _ = require('underscore');
+var request   = require('request'),
+    restify   = require('restify'),
+    countries = require('./db/countries'),
+    xml2js    = require('xml2js'),
+    async     = require('async'),
+    _         = require('underscore'),
+    Datastore = require('nedb'), 
+    path      = require('path'),
+    db        = new Datastore({ filename: './db/cities.db', autoload: true });
 
 /* Create Server */
 /* http://localhost:8080 */
@@ -21,26 +26,24 @@ function location(req, res, next) {
   var level = req.params.level;
   getData(function(reports){
     var output;
-    switch(level){
-      case '2':
-        output = locationCountry(reports);
-        break;
-      case '1':
-        output = locationCity(reports);
-        break;
+    if(level == '2'){
+      res.send(locationCountry(reports));
+      return next();
     }
-
-    res.send(output);
-    return next();
+    else if(level == '1'){
+      locationCity(reports, function(out){
+        output = out;
+        res.send(output);
+        return next();
+      });
+    }
   });
-  // res.send('hello ' + req.params.level);
 }
 function locationCountry(reports){
   var output = [];
   var groupedObjs = _.groupBy(reports, 'cc');
   for(cc in groupedObjs){
     if(cc != ''){
-      console.log(countries.list[cc]['name']);
       var mood_num = 0;
       var mood_sum = 0;
       var mood_avg = null;
@@ -63,12 +66,12 @@ function locationCountry(reports){
   }
   return output;
 }
-function locationCity(reports){
+function locationCity(reports, callbackLocation){
   var output = [];
   var groupedObjs = _.groupBy(reports, 'location');
-  for(city in groupedObjs){
+  var cityList = _.keys(groupedObjs);
+  async.eachSeries(cityList,function(city, callback){
     if(city != ''){
-      // console.log(countries.list[city]);
       var mood_num = 0;
       var mood_sum = 0;
       var mood_avg = null;
@@ -79,15 +82,70 @@ function locationCity(reports){
         }
       }
       if(mood_num > 0) mood_avg = Math.round(mood_sum/mood_num);
-      output.push({
-        'id': city,
-        'name': city,
-        'mood': mood_avg,
-        'level': 1,
+      getCityLatLong(city, function(result){
+        output.push({
+          'id': city,
+          'name': result.name,
+          'lat': result.lat,
+          'lon': result.lon,
+          'mood': mood_avg,
+          'level': 1,
+        });
+        callback();
+      });
+    } 
+    else {
+      callback();
+    }
+  }, function(){
+    callbackLocation(output);
+  });
+}
+function getCityLatLong(cityName, callback){
+  db.find({id: cityName}, function(err, docs){
+    if(docs.length > 0){
+      callback(docs[0]);
+    }
+    else{
+      requestCityAndInsert(cityName, function(item){
+      console.log('inserted');
+      console.log(item);
+        callback(item);
       });
     }
-  }
-  return output;
+  });
+}
+
+function requestCityAndInsert(cityName, callback){
+  request({
+    uri: urlForGeocode(cityName),
+    method: 'GET',
+    proxy: 'http://172.16.20.214:8080',
+    timeout: 10000,
+    followRedirect: true,
+    maxRedirects: 10
+  }, function(error, response, body) {
+    var obj = JSON.parse(body);
+    if(obj.length > 0){
+      newItem = {
+        id: cityName,
+        name: obj[0].display_name,
+        lat: obj[0].lat,
+        lon: obj[0].lon
+      };
+    } 
+    else{
+      newItem = {
+        id: cityName,
+        name: cityName,
+        lat: null,
+        lon: null
+      };
+    }
+    db.insert(newItem, function (err, newDoc) {
+      callback(newDoc);
+    });
+  });
 }
 
 function getData(callback){
@@ -102,6 +160,14 @@ function getData(callback){
     var obj = JSON.parse(body);
     callback(obj);
   });
+}
+
+function urlForReverseGeocode (lat, lng) {
+  return "http://nominatim.openstreetmap.org/reverse?lat=" + lat +"&lon=" + lng + "&accept-language=en-us&format=json&zoom=18";
+}
+
+function urlForGeocode (str) {
+  return "http://nominatim.openstreetmap.org/search?q="+ str +"&format=json&accept-language=en-us&limit=1"
 }
 
 function a(){
