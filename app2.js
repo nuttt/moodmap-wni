@@ -1,11 +1,9 @@
 var request   = require('request'),
     restify   = require('restify'),
     countries = require('./db/countries'),
-    xml2js    = require('xml2js'),
     async     = require('async'),
     _         = require('underscore'),
     Datastore = require('nedb'), 
-    path      = require('path'),
     db        = new Datastore({ filename: './db/cities.db', autoload: true });
 
 /* Create Server */
