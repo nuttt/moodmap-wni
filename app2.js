@@ -14,6 +14,7 @@ server.listen(8080);
 /* Routes */
 server.get('/location/:level', location);
 server.get('/info/:level/:id', info);
+server.get('/report/:id', report);
 
 /* 
  * For http://localhost:8080/location/{level} 
@@ -69,13 +70,25 @@ function info(req, res, next) {
       });
     }
     else if(level == '0'){
-      res.send(locationReport(reports));
+      res.send({});
       return next();
     }
     else{
-      res.send([]);
+      res.send({});
       return next();
     }
+  });
+}
+
+/*
+ * For http://localhost:8080/report/{id}
+ * id is repoid
+ */
+function report(req, res, next) {
+  var id = req.params.id;
+  getData(function(reports){
+    res.send(getReport(reports,id));
+    return next();
   });
 }
 
@@ -208,6 +221,21 @@ function infoCity(reports, city, callback){
   }
 }
 
+function getReport(reports,repoid){
+  report = _.find(reports, function(rep){ return rep.repoid == repoid; });
+  if(report){
+    return {
+      id: report.repoid,
+      photo_url: report.photo,
+      name: report.name,
+      note: report.skytag
+    };
+  }
+}
+
+/*
+ * Return top five commented reports
+ */
 function getThumbArray(reports){
   reports.sort(function(a,b){ return a.ncomments - b.ncomments; }).reverse();
   reports = reports.slice(0,10);
@@ -220,6 +248,9 @@ function getThumbArray(reports){
   return reportsArray;
 }
 
+/*
+ * Return top three moods
+ */
 function getMoodArray(reports){
   var moodNum = 0;
   var moodCount = {
@@ -253,17 +284,14 @@ function getMoodArray(reports){
   }
 }
 
-function getCountryName(cc){
-  if(countries.list[cc])
-    return countries.list[cc].name
-  else
-    return cc
-}
-
+/*
+ * Calculate rounded percentage
+ */
 function toPercentDecimal(num, sum){
   if(sum > 0) return Math.round((num/sum)*100);
   return null;
 }
+
 /*
  * Try to get a lat/lon from the database, 
  * and send a request if not found
@@ -282,7 +310,10 @@ function getCityLatLong(cityName, callback){
     }
   });
 }
+
 /*
+ * Find city name in the db
+ * If the name is not found, return the input
  */
 function getCityName(cityName, callback){
   db.find({id: cityName}, function(err, docs){
@@ -291,6 +322,17 @@ function getCityName(cityName, callback){
     else 
       callback(cityName);
   });
+}
+
+/*
+ * Find country name from cc (country code)
+ * If the name is not found, return cc
+ */
+function getCountryName(cc){
+  if(countries.list[cc])
+    return countries.list[cc].name
+  else
+    return cc
 }
 /*
  * Send a request to openstreetmap to ask 
