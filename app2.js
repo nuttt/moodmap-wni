@@ -111,12 +111,12 @@ function locationCountry(reports){
       if(mood_num > 0) mood_avg = Math.round(mood_sum/mood_num);
       if(mood_avg && countries.list[cc]['lat'] && countries.list[cc]['lon'])
         output.push({
-          'id': cc,
-          'name': countries.list[cc]['name'],
-          'lat': countries.list[cc]['lat'],
-          'lon': countries.list[cc]['lon'],
-          'mood': mood_avg,
-          'level': 2,
+          id: cc,
+          name: countries.list[cc]['name'],
+          lat: countries.list[cc]['lat'],
+          lon: countries.list[cc]['lon'],
+          mood: mood_avg,
+          level: 2,
         });
     }
   }
@@ -142,12 +142,12 @@ function locationCity(reports, callbackLocation){
       getCityLatLong(city, function(result){
         if(mood_avg && result.lat && result.lon)
           output.push({
-            'id': city,
-            'name': result.name,
-            'lat': result.lat,
-            'lon': result.lon,
-            'mood': mood_avg,
-            'level': 1,
+            id: city,
+            name: result.name,
+            lat: result.lat,
+            lon: result.lon,
+            mood: mood_avg,
+            level: 1,
           });
         callback();
       });
@@ -165,12 +165,12 @@ function locationReport(reports){
   for(i in reports){
     if(reports[i].skyfeel && reports[i].lat != '0.000000' && reports[i].lon != '0.000000'){
       output.push({
-        'id': reports[i].repoid,
-        'name': reports[i].name+" @ "+reports[i].location,
-        'lat': reports[i].lat,
-        'lon': reports[i].lon,
-        'mood': reports[i].skyfeel,
-        'level': 0
+        id: reports[i].repoid,
+        name: reports[i].name+" @ "+reports[i].location,
+        lat: reports[i].lat,
+        lon: reports[i].lon,
+        mood: reports[i].skyfeel,
+        level: 0
       });
     }
   }
@@ -182,19 +182,12 @@ function infoCountry(reports, cc){
     var filteredReports = _.filter(reports, function(report){ return report.cc == cc; });
     var moodArray = getMoodArray(filteredReports);
     var thumbArray = getThumbArray(filteredReports);
-    console.log({
-      'id': cc,
-      'name': getCountryName(cc),
-      'moods': moodArray,
-      'level': 2,
-      'top_photo_thumbnails': thumbArray,
-    });
     return {
-      'id': cc,
-      'name': getCountryName(cc),
-      'moods': moodArray,
-      'level': 2,
-      'top_photo_thumbnails': thumbArray,
+      id: cc,
+      name: getCountryName(cc),
+      moods: moodArray,
+      level: 2,
+      top_photo_thumbnails: thumbArray,
     };
   }
   else{
@@ -209,11 +202,11 @@ function infoCity(reports, city, callback){
     var thumbArray = getThumbArray(filteredReports);
     getCityName(city, function(cityName){
       callback({
-        'id': city,
-        'name': cityName,
-        'moods': moodArray,
-        'level': 1,
-        'top_photo_thumbnails': thumbArray,
+        id: city,
+        name: cityName,
+        moods: moodArray,
+        level: 1,
+        top_photo_thumbnails: thumbArray,
       });
 
     });
@@ -229,6 +222,7 @@ function getReport(reports,repoid){
     return {
       id: report.repoid,
       photo_url: report.photo,
+      mood: parseInt(report.skyfeel),
       name: report.name,
       note: report.skytag
     };
@@ -243,8 +237,8 @@ function getThumbArray(reports){
   reports = reports.slice(0,10);
   reportsArray = _.map(reports, function(val, key){
     return {
-      'id': val.repoid,
-      'thumbnail_url': val.thumb
+      id: val.repoid,
+      thumbnail_url: val.thumb
     }
   });
   return reportsArray;
