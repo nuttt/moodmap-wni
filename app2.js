@@ -13,6 +13,7 @@ server.listen(8080);
 
 /* Routes */
 server.get('/location/:level', location);
+server.get('/info/:level/:id', info);
 
 /* 
  * For http://localhost:8080/location/{level} 
@@ -45,6 +46,39 @@ function location(req, res, next) {
     }
   });
 }
+
+/*
+ * For http://localhost:8080/info/{level}/{id}
+ * level 2 => country
+ * level 1 => city/state
+ * level 0 => individual report
+ */
+function info(req, res, next) {
+  var level = req.params.level;
+  var id = req.params.id;
+  getData(function(reports){
+    var output;
+    if(level == '2'){
+      res.send(infoCountry(reports,id));
+      return next();
+    }
+    else if(level == '1'){
+      infoCity(reports,id,function(result){
+        res.send(result);
+        return next();
+      });
+    }
+    else if(level == '0'){
+      res.send(locationReport(reports));
+      return next();
+    }
+    else{
+      res.send([]);
+      return next();
+    }
+  });
+}
+
 function locationCountry(reports){
   var output = [];
   var groupedObjs = _.groupBy(reports, 'cc');
@@ -73,6 +107,7 @@ function locationCountry(reports){
   }
   return output;
 }
+
 function locationCity(reports, callbackLocation){
   var output = [];
   var groupedObjs = _.groupBy(reports, 'location');
@@ -109,6 +144,7 @@ function locationCity(reports, callbackLocation){
     callbackLocation(output);
   });
 }
+
 function locationReport(reports){
   var output = [];
   for(i in reports){
@@ -122,11 +158,111 @@ function locationReport(reports){
         'level': 0
       });
     }
-    // else{
-    //   console.log(reports[i]);
-    // }
   }
   return output;
+}
+
+function infoCountry(reports, cc){
+  if(cc != ''){
+    var filteredReports = _.filter(reports, function(report){ return report.cc == cc; });
+    var moodArray = getMoodArray(filteredReports);
+    var thumbArray = getThumbArray(filteredReports);
+    console.log({
+      'id': cc,
+      'name': getCountryName(cc),
+      'moods': moodArray,
+      'level': 2,
+      'top_photo_thumbnails': thumbArray,
+    });
+    return {
+      'id': cc,
+      'name': getCountryName(cc),
+      'moods': moodArray,
+      'level': 2,
+      'top_photo_thumbnails': thumbArray,
+    };
+  }
+  else{
+    return null;
+  }
+}
+
+function infoCity(reports, city, callback){
+  if(city != ''){
+    var filteredReports = _.filter(reports, function(report){ return report.location == city; });
+    var moodArray = getMoodArray(filteredReports);
+    var thumbArray = getThumbArray(filteredReports);
+    getCityName(city, function(cityName){
+      callback({
+        'id': city,
+        'name': cityName,
+        'moods': moodArray,
+        'level': 1,
+        'top_photo_thumbnails': thumbArray,
+      });
+
+    });
+  }
+  else{
+    callback(null);
+  }
+}
+
+function getThumbArray(reports){
+  reports.sort(function(a,b){ return a.ncomments - b.ncomments; }).reverse();
+  reports = reports.slice(0,10);
+  reportsArray = _.map(reports, function(val, key){
+    return {
+      'id': val.repoid,
+      'thumbnail_url': val.thumb
+    }
+  });
+  return reportsArray;
+}
+
+function getMoodArray(reports){
+  var moodNum = 0;
+  var moodCount = {
+    1: 0,
+    2: 0,
+    3: 0,
+    4: 0,
+    5: 0
+  };
+  for(i in reports){
+    if(reports[i].skyfeel){
+      moodNum += 1;
+      moodCount[reports[i].skyfeel] += 1;
+    }
+  }
+  if(moodNum > 0){
+    var moodArray = [
+      {mood_level: 1, mood_percent: toPercentDecimal(moodCount[1],moodNum)},
+      {mood_level: 2, mood_percent: toPercentDecimal(moodCount[2],moodNum)},
+      {mood_level: 3, mood_percent: toPercentDecimal(moodCount[3],moodNum)},
+      {mood_level: 4, mood_percent: toPercentDecimal(moodCount[4],moodNum)},
+      {mood_level: 5, mood_percent: toPercentDecimal(moodCount[5],moodNum)},
+    ];
+    moodArray.sort(function(a,b){ return a.mood_percent - b.mood_percent; });
+    moodArray.reverse();
+    moodArray = moodArray.slice(0,3);
+    return moodArray;
+  }
+  else{
+    moodArray = null;
+  }
+}
+
+function getCountryName(cc){
+  if(countries.list[cc])
+    return countries.list[cc].name
+  else
+    return cc
+}
+
+function toPercentDecimal(num, sum){
+  if(sum > 0) return Math.round((num/sum)*100);
+  return null;
 }
 /*
  * Try to get a lat/lon from the database, 
@@ -144,6 +280,16 @@ function getCityLatLong(cityName, callback){
         callback(item);
       });
     }
+  });
+}
+/*
+ */
+function getCityName(cityName, callback){
+  db.find({id: cityName}, function(err, docs){
+    if(docs.length > 0)
+      callback(docs[0].name);
+    else 
+      callback(cityName);
   });
 }
 /*
@@ -199,10 +345,4 @@ function urlForReverseGeocode (lat, lng) {
 }
 function urlForGeocode (str) {
   return "http://nominatim.openstreetmap.org/search?q="+ str +"&format=json&accept-language=en-us&limit=1"
-}
-
-function a(){
-  getData(function(obj){
-    console.log(obj);
-  });
 }
