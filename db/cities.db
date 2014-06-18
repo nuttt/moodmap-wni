@@ -1,423 +1,118 @@
-{"id":"延岡市","name":"延岡市 (Nobeoka), 東臼杵郡 (Higashiusuki), Kyushu Region, Japan","lat":"32.664409","lon":"131.657243","_id":"01YRuOfnZD3YJh2X"}
-{"id":"중구","name":"Jung-gu, Seoul, South Korea","lat":"37.5578999","lon":"126.992913273511","_id":"0EUKXvghNPvZRbp6"}
-{"id":"Chittagong","name":"Chittagong Division, Bangladesh","lat":"22.3256945","lon":"92.1191345993169","_id":"0ebww50OgJXFDYQi"}
-{"id":"晋中市","name":"Jinzhong, Yuci District, Jinzhong City, Shanxi, People's Republic of China","lat":"37.6731633","lon":"112.7439068","_id":"1AnvHb11oEwHLLsJ"}
-{"id":"Taunton","name":"Taunton, Somerset, South West England, England, United Kingdom","lat":"51.015024","lon":"-3.102981","_id":"1IhNOZtJ3kSq3IDl"}
-{"id":"Richmond","name":"Richmond, Henrico, Virginia, United States of America","lat":"37.5385087","lon":"-77.43428","_id":"1gdvB8l8JqY98AId"}
-{"id":"中山區","name":"Zhongshan District, Liupanshui City, Guizhou, People's Republic of China","lat":"26.8007744","lon":"104.648009563919","_id":"1kSH3I8Jl2oqiAiu"}
-{"id":"Beawar","name":"Beawar, Ajmer, Rajasthan, India","lat":"26.08805","lon":"74.3074118422819","_id":"1q946KToLW1uZGAK"}
-{"id":"Menasha","name":"Menasha, Calumet County, Wisconsin, United States of America","lat":"44.216405","lon":"-88.3671452636855","_id":"1voRgWfe88sHJxW0"}
-{"id":"北区","name":"North District, Tainan City, 704, Republic of China","lat":"22.999492","lon":"120.202975","_id":"284Fuo9oz22Z8613"}
-{"id":"San Diego","name":"San Diego, San Diego County, California, United States of America","lat":"32.7469869","lon":"-117.21177","_id":"29zlxhZPqh9SaabI"}
-{"id":"Chicago","name":"Chicago, Cook County, Illinois, United States of America","lat":"41.8756208","lon":"-87.6243706","_id":"2JsETHZk65sCpkBF"}
-{"id":"Mihama-Ku, Chiba","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"2Q4BK0RwbAzki4OB"}
-{"id":"New York","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"2beTTXf0ZxNR6Qgu"}
-{"id":"福州市","name":"Fuzhou, Gulou District, Fuzhou City, Fujian, People's Republic of China","lat":"26.0774554","lon":"119.2915465","_id":"2mYmIBok8aSpeWIM"}
-{"id":"富士吉田市","name":"Fujiyoshida, Yamanashi, Chubu Region, Japan","lat":"35.5090154","lon":"138.8052326","_id":"2onsGBiuOCpzDbM4"}
-{"id":"Oldham","name":"Oldham, North West England, England, United Kingdom","lat":"53.5415797","lon":"-2.1147831","_id":"2ueDEqVZC2TaCyCN"}
-{"id":"Chowmuhani","name":"Chowmuhani, Noakhali District, Chittagong Division, Bangladesh","lat":"22.9441687","lon":"91.1056244","_id":"31whCRMQI0Hdyg44"}
-{"id":"Harlingen","name":"Harlingen, Cameron County, Texas, United States of America","lat":"26.1906306","lon":"-97.6961026","_id":"3BqJEP1AjSKr13V6"}
-{"id":"福州市","name":"Fuzhou, Gulou District, Fuzhou City, Fujian, People's Republic of China","lat":"26.0774554","lon":"119.2915465","_id":"3GIfMgoIsxFmyJeo"}
-{"id":"白银市","name":"Baiyin, Baiyin District, Baiyin, Gansu, People's Republic of China","lat":"36.5519459","lon":"104.1466384","_id":"3RxeIq9tdqFU4c5k"}
-{"id":"Singapore","name":"Singapore","lat":"1.2904527","lon":"103.852038","_id":"3b6B7llBMWfLLkM0"}
-{"id":"Winnipeg","name":"Winnipeg, Rockwood, Manitoba, Canada","lat":"49.8833343","lon":"-97.1666741","_id":"3t02BJmUo3Eitzjn"}
-{"id":"大阪市 此花区","name":"Konohana Ward, Senboku District, Osaka Prefecture, Kinki Region, Japan","lat":"34.670951","lon":"135.422471","_id":"3vzEX7EjSIAbcDJg"}
-{"id":"滝川市","name":"Takikawa, Kabato District, Japan","lat":"43.5577","lon":"141.9105","_id":"45Qm02DxZsr1Nxek"}
-{"id":"Kumamoto","name":"Kumamoto, 下益城郡 (Shimomakishi), Kyushu Region, Japan","lat":"32.7833323","lon":"130.7333361","_id":"47IBHaS5s4ctA02j"}
-{"id":"伯明翰","name":"Birmingham, West Midlands, England, United Kingdom","lat":"52.4813679","lon":"-1.8980726","_id":"4G6pDQehRkJEX53E"}
-{"id":"倉敷市","name":"水島臨海鉄道 倉敷市駅, 国道429号, Kurashiki, Okayama Prefecture, Chugoku Region, Japan","lat":"34.600788","lon":"133.764923","_id":"4XKtFWj9brBzd1t6"}
-{"id":"東員町","name":"東原町, 大阪高槻京都線, Suita, Mishima District, Osaka Prefecture, Kinki Region, Japan","lat":"34.7726316","lon":"135.5294808","_id":"4b5WOwTatyxwg12Q"}
-{"id":"深圳市","name":"Shenzhen, Shenzhen City, Guangdong, People's Republic of China","lat":"22.5462321","lon":"114.0570068","_id":"4vP8DgeDP1HFpPMD"}
-{"id":"名古屋市 西区","name":"Nishi Ward, National Route 22, Nagoya, Chita, Aichi, Chubu Region, 451-8508, Japan","lat":"35.185641","lon":"136.885936","_id":"57RgnTyLbuivOLbj"}
-{"id":"Winnipeg","name":"Winnipeg, Rockwood, Manitoba, Canada","lat":"49.8833343","lon":"-97.1666741","_id":"5GRbOHOwPWVJHgDD"}
-{"id":"板橋区","name":"Itabashi, Tokyo, Kantō, Japan","lat":"35.751673","lon":"139.7089756","_id":"5OusDZu2QR9VexRx"}
-{"id":"千代田区","name":"Chiyoda, Tokyo, Kantō, Japan","lat":"35.6885203","lon":"139.7514388","_id":"5Pr1doAOwMlZvhg0"}
-{"id":"栃木市","name":"Tochigi, Shimotsuga, Tochigi, Japan","lat":"36.348713","lon":"139.6881415","_id":"5R8lwyAbmGFPtOTy"}
-{"id":"知立市","name":"Chiryu, Chita, Aichi, Chubu Region, Japan","lat":"35.0004245","lon":"137.0512155","_id":"5S0CbAbXRAbqeClB"}
-{"id":"里士满","name":"Russian Federation","lat":"64.6863136","lon":"97.7453061","_id":"5ViVeicnRjVzsoRn"}
-{"id":"Bangkok","name":"Bangkok, Thailand","lat":"13.5859271","lon":"100.416084040605","_id":"5Xiy2fEiSB3DSCMU"}
-{"id":"天津市","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"5akpaccZbG4KG8C1"}
-{"id":"北京市","name":"Beijing, People's Republic of China","lat":"40.2505379","lon":"116.625088590652","_id":"5oXmHRXAZBrwWuw5"}
-{"id":"ハノイ","name":"Hanoi, Đồng Bằng Sông Hồng, Vietnam","lat":"21.0292095","lon":"105.85247","_id":"5qWSYPjjtmGCMXnx"}
-{"id":"上海市","name":"Shanghai, Huangpu District, Shanghai, People's Republic of China","lat":"31.2253441","lon":"121.4888922","_id":"5tzFf282sjD1meK7"}
-{"id":"Tianjin Shi","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"5uSFEzTwTD3t4wBD"}
-{"id":"重庆市","name":"Chongqing, Central Chongqing, Chongqing, People's Republic of China","lat":"29.5585712","lon":"106.5492822","_id":"5w8sC48MkdqGStML"}
-{"id":"哥本哈根","name":"Copenhagen, Copenhagen Municipality, Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"61fzrkIcF4zBmcFA"}
-{"id":"攀枝花市","name":"Panzhihua City, Sichuan, People's Republic of China","lat":"26.69721875","lon":"101.724482681822","_id":"62CYhX9AdZZXGnuN"}
-{"id":"Higashihiroshima","name":"Higashihiroshima, Hiroshima Prefecture, Chugoku Region, Japan","lat":"34.4268575","lon":"132.7435593","_id":"64sJakJ4F3k0SjjU"}
-{"id":"Geylang","name":"Geylang, Singapore","lat":"1.3181862","lon":"103.8870563","_id":"6Dxrjs1H4mybNJ0G"}
-{"id":"北京市","name":"Beijing, People's Republic of China","lat":"40.2505379","lon":"116.625088590652","_id":"6FpvpsDW5ZKuUAZX"}
-{"id":"Boston","name":"Boston, Suffolk County, Massachusetts, United States of America","lat":"42.3604823","lon":"-71.0595678","_id":"6axD73UaAOEb5gW7"}
-{"id":"성남시","name":"Seongnam, Gyeonggi-do, South Korea","lat":"37.4201556","lon":"127.1262092","_id":"6o5NZTR1iVaERcZ2"}
-{"id":"揭阳市","name":"Jieyang City, Guangdong, People's Republic of China","lat":"23.33238445","lon":"116.058856919629","_id":"7XzNPeZfnIdm8qY5"}
-{"id":"兰州市","name":"Lanzhou, Chengguan District, Lanzhou, Gansu, People's Republic of China","lat":"36.0612545","lon":"103.8318602","_id":"7caPKAm5w463M4pM"}
-{"id":"Roanoke","name":"Roanoke, Roanoke City, Virginia, United States of America","lat":"37.270973","lon":"-79.9414313","_id":"7wKjjc10fiHbyLTZ"}
-{"id":"里士满","name":"Russian Federation","lat":"64.6863136","lon":"97.7453061","_id":"8MBk0W9TJT5jEafe"}
-{"id":"Carlisle","name":"Carlisle, Cumberland County, Pennsylvania, United States of America","lat":"40.201824","lon":"-77.1893888","_id":"8ZXtndhSfs9ng25X"}
-{"id":"Portsmouth","name":"Portsmouth, South East England, England, United Kingdom","lat":"50.81842365","lon":"-1.08087406133344","_id":"8f8keZ7LbA8czVgU"}
-{"id":"栗原市","name":"Yuzhno-Sakhalinsk, городской округ Южно-Сахалинск, Sakhalin Oblast, Far Eastern Federal District, Russian Federation","lat":"46.9574273","lon":"142.727438","_id":"8gBU8RmHZfdUDtUQ"}
-{"id":"Menasha","name":"Menasha, Calumet County, Wisconsin, United States of America","lat":"44.216405","lon":"-88.3671452636855","_id":"8mvKZg8kM0Apo5P3"}
-{"id":"Norman","name":"Norman, Oklahoma, United States of America","lat":"35.2225717","lon":"-97.4394816","_id":"8xucl0DPOTr0MwAY"}
-{"id":"Newry","name":"Newry, Ulster, Northern Ireland, United Kingdom","lat":"54.1775283","lon":"-6.337506","_id":"9HmItc02SdZlmGtW"}
-{"id":"多摩市","name":"Tama, Tokyo, Kantō, Japan","lat":"35.6364066","lon":"139.4450731","_id":"9StJ9Tf651di5wJH"}
-{"id":"伯明翰","name":"Birmingham, West Midlands, England, United Kingdom","lat":"52.4813679","lon":"-1.8980726","_id":"9ThGmTyzdYp4jQXy"}
-{"id":"Newry","name":"Newry, Ulster, Northern Ireland, United Kingdom","lat":"54.1775283","lon":"-6.337506","_id":"9cND7C3HZlhK15UO"}
-{"id":"Guangdong Province","name":"Guangdong Province, People's Republic of China","lat":"23.1357694","lon":"113.1982688","_id":"9qTZTOyJA57ySxjM"}
-{"id":"名古屋市","name":"Nagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.183333","lon":"136.9","_id":"AvqXanQQoxgVHg1b"}
-{"id":"Boston","name":"Boston, Suffolk County, Massachusetts, United States of America","lat":"42.3604823","lon":"-71.0595678","_id":"AxMs59yPR8fnIlxV"}
-{"id":"千葉市 美浜区","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"B6TcTCUW6EwdueCE"}
-{"id":"盐城市","name":"Yancheng City, Jiangsu, People's Republic of China","lat":"33.5175875","lon":"120.084506119326","_id":"BAJTnMgdLul3zwPo"}
-{"id":"大阪市 此花区","name":"Konohana Ward, Senboku District, Osaka Prefecture, Kinki Region, Japan","lat":"34.670951","lon":"135.422471","_id":"BNhHA3wda9cayF04"}
-{"id":"白银市","name":"Baiyin, Baiyin District, Baiyin, Gansu, People's Republic of China","lat":"36.5519459","lon":"104.1466384","_id":"BS4oqBoEBxentSGu"}
-{"id":"Bangkok","name":"Bangkok, Thailand","lat":"13.5859271","lon":"100.416084040605","_id":"BTunyVoyztrKakk9"}
-{"id":"知立市","name":"Chiryu, Chita, Aichi, Chubu Region, Japan","lat":"35.0004245","lon":"137.0512155","_id":"BUYrZeHnSC1BEH37"}
-{"id":"小港區","name":"Siaogang, Kaohsiung City, 812","lat":"22.54727755","lon":"120.355994739698","_id":"BUpm7MsYIAxgsdOu"}
-{"id":"香取市","name":"Katori, Chiba, Japan","lat":"35.8883251","lon":"140.4989877","_id":"BcgvCZZWZ260SLbn"}
-{"id":"千葉市","name":"Chiba, Japan","lat":"35.6041015","lon":"140.180898814268","_id":"Bz5KgnASWnOQ1dHV"}
-{"id":"栗原市","name":"Yuzhno-Sakhalinsk, городской округ Южно-Сахалинск, Sakhalin Oblast, Far Eastern Federal District, Russian Federation","lat":"46.9574273","lon":"142.727438","_id":"C8yqN2k3YdEYXUPF"}
-{"id":"Norman","name":"Norman, Oklahoma, United States of America","lat":"35.2225717","lon":"-97.4394816","_id":"CBnmpWYjzVTgu5Lh"}
-{"id":"深圳市","name":"Shenzhen, Shenzhen City, Guangdong, People's Republic of China","lat":"22.5462321","lon":"114.0570068","_id":"CCi1ZOsbXXJX8yYA"}
-{"id":"뉴욕","name":"New York, United States of America","lat":"43.1561681","lon":"-75.8449946","_id":"CPaW2TwurjjXDbug"}
-{"id":"Mihama-Ku, Chiba","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"CbNMCl1pzmcyVinR"}
-{"id":"那須塩原市","name":"Nasushiobara, Nasu, Tochigi, Kantō, Japan","lat":"36.995985","lon":"139.9371045","_id":"DNmmbuY3DS5d9lEC"}
-{"id":"Gansu Sheng","name":"Gansu Province, People's Republic of China","lat":"38.0000001","lon":"101.9999999","_id":"DVybXCSAn9gaNVTp"}
-{"id":"烟台市","name":"Yantai, 长岛县, Shandong, People's Republic of China","lat":"37.5340488","lon":"121.389463","_id":"DfLYYLkpnbTP5xfi"}
-{"id":"天津市","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"DjEfw1y8Wv1FuOrr"}
-{"id":"福州市","name":"Fuzhou, Gulou District, Fuzhou City, Fujian, People's Republic of China","lat":"26.0774554","lon":"119.2915465","_id":"DlQMlxFesiyQF4KO"}
-{"id":"佛山市","name":"Foshan, 清新县, Guangdong, People's Republic of China","lat":"23.0249168","lon":"113.1146174","_id":"Dp7MvqFn6BjuIx4W"}
-{"id":"烟台市","name":"Yantai, 长岛县, Shandong, People's Republic of China","lat":"37.5340488","lon":"121.389463","_id":"E5E7Jm9bGOJa0ENC"}
-{"id":"伯明翰","name":"Birmingham, West Midlands, England, United Kingdom","lat":"52.4813679","lon":"-1.8980726","_id":"EEvPkSfvGNA7bmhM"}
-{"id":"Seoul","name":"Seoul, South Korea","lat":"37.5710824","lon":"126.9953036","_id":"EGmWRQgWSIialwPn"}
-{"id":"保定市","name":"Baoding City, Hebei, People's Republic of China","lat":"39.0925359","lon":"115.334799831456","_id":"EJlF18kQ57w17Wce"}
-{"id":"ハノイ","name":"Hanoi, Đồng Bằng Sông Hồng, Vietnam","lat":"21.0292095","lon":"105.85247","_id":"EVJF00ahjau8vyOz"}
-{"id":"Menasha","name":"Menasha, Calumet County, Wisconsin, United States of America","lat":"44.216405","lon":"-88.3671452636855","_id":"EZADtbVafbOtkqBu"}
-{"id":"哥本哈根","name":"Copenhagen, Copenhagen Municipality, Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"EZmXHJcowy8qhfaS"}
-{"id":"Toronto","name":"Toronto, Ontario, Canada","lat":"43.6529206","lon":"-79.3849008","_id":"Eh2B7dzwvgP1N9Wf"}
-{"id":"Holden Heights","name":"Holden Heights, Orange County, Florida, United States of America","lat":"28.52062035","lon":"-81.3980724658651","_id":"F1P4jIQ4ggaiQ7Bu"}
-{"id":"渋谷区","name":"Shibuya, Tokyo, Kantō, Japan","lat":"35.6639142","lon":"139.6979269","_id":"FEQEWfics7kAdfIA"}
-{"id":"船橋市","name":"Funabashi, Chiba, Japan","lat":"35.7254989","lon":"140.0174433","_id":"FS6wT27NXrrbgxWX"}
-{"id":"Prachin Buri","name":"Prachin Buri, Thailand","lat":"13.80972005","lon":"102.104163618885","_id":"FTAl7dj0h72uN8gu"}
-{"id":"深圳市","name":"Shenzhen, Shenzhen City, Guangdong, People's Republic of China","lat":"22.5462321","lon":"114.0570068","_id":"FTkj4kblhatDzHbc"}
-{"id":"名古屋市 西区","name":"Nishi Ward, National Route 22, Nagoya, Chita, Aichi, Chubu Region, 451-8508, Japan","lat":"35.185641","lon":"136.885936","_id":"FdXttGvc05L9diIu"}
-{"id":"さいたま市","name":"Saitama, Kita-Adachi, Saitama, Japan","lat":"35.8994072","lon":"139.6536855","_id":"G0XiSyxpIPDeGbCw"}
-{"id":"さいたま市","name":"Saitama, Kita-Adachi, Saitama, Japan","lat":"35.8994072","lon":"139.6536855","_id":"G6YXJhd1lqcYYqoM"}
-{"id":"Killarney","name":"Killarney, County Kerry, Munster, Ireland","lat":"52.0595746","lon":"-9.505322","_id":"GAl3EbMekEjM472S"}
-{"id":"Changwat Udon Thani","name":"Udon Thani Proivnce, Thailand","lat":"17.45643995","lon":"102.836513312254","_id":"GTdhXGtSu18q6mUQ"}
-{"id":"揭阳市","name":"Jieyang City, Guangdong, People's Republic of China","lat":"23.33238445","lon":"116.058856919629","_id":"GaYI7bHvpCMaO3kI"}
-{"id":"鳥取市","name":"Tottori, 鳥取福部線, Tottori, Tottori Prefecture, Chugoku Region, Japan","lat":"35.493999","lon":"134.2257939","_id":"GtTECtRhhLMLc7uS"}
-{"id":"天津市","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"H2NlFscJLg5SuPXO"}
-{"id":"佛山市","name":"Foshan, 清新县, Guangdong, People's Republic of China","lat":"23.0249168","lon":"113.1146174","_id":"H5r0l9GLDU3msysa"}
-{"id":"Oldham","name":"Oldham, North West England, England, United Kingdom","lat":"53.5415797","lon":"-2.1147831","_id":"HD90nzacEc5PUoIQ"}
-{"id":"Guangdong Province","name":"Guangdong Province, People's Republic of China","lat":"23.1357694","lon":"113.1982688","_id":"HRH7ZR2a472tMRXo"}
-{"id":"Caudebec-en-Caux","name":"Caudebec-en-Caux, Rouen, Seine-Maritime, Upper Normandy, Metropolitan France, 76490, France","lat":"49.525364","lon":"0.724685","_id":"HT7V18dzOjrbJPdX"}
-{"id":"東京都","name":"Tokyo, Kantō, Japan","lat":"35.69004135","lon":"139.510395073475","_id":"HXrVV4mtWJjHcwlI"}
-{"id":"上海市","name":"Shanghai, Huangpu District, Shanghai, People's Republic of China","lat":"31.2253441","lon":"121.4888922","_id":"HlmVpb5v8b5CkISY"}
-{"id":"北京市","name":"Beijing, People's Republic of China","lat":"40.2505379","lon":"116.625088590652","_id":"HprGWFEuDSHszGp3"}
-{"id":"鳥取市","name":"Tottori, 鳥取福部線, Tottori, Tottori Prefecture, Chugoku Region, Japan","lat":"35.493999","lon":"134.2257939","_id":"Hs9rJ5SqFm7Ejbsd"}
-{"id":"藤枝市","name":"藤枝, 藤枝停車場線, 藤枝市 (Fujieda), Kamo, Japan","lat":"34.8493374","lon":"138.2522114","_id":"IBIP3y7v0sVrdeOy"}
-{"id":"Kumamoto","name":"Kumamoto, 下益城郡 (Shimomakishi), Kyushu Region, Japan","lat":"32.7833323","lon":"130.7333361","_id":"IDm3nKX3thluGBMW"}
-{"id":"龜山鄉","name":"Gueishan Township, Taoyuan County, Taiwan Province, Republic of China","lat":"24.992517","lon":"121.337767","_id":"IILdR9T7OGD3BCfd"}
-{"id":"里士满","name":"Russian Federation","lat":"64.6863136","lon":"97.7453061","_id":"IJF7C8s2p0kVHADx"}
-{"id":"River Valley","name":"River Valley, Allegheny, Pennsylvania, United States of America","lat":"40.5461787","lon":"-79.8214385","_id":"IUDJMwLF958y78Sc"}
-{"id":"Plovdiv","name":"Plovdiv, Plovdiv Region, Южен-централен район за планиране, Bulgaria","lat":"42.1419118","lon":"24.7498385","_id":"IYNzKOcNds7QuAoH"}
-{"id":"天津市","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"Im4Lk7U66uL794qw"}
-{"id":"横浜市","name":"Yokohama, Kanagawa, Japan","lat":"35.4449524","lon":"139.6421049","_id":"IwqsYBvOSGEnjGOv"}
-{"id":"Ester","name":"Ester, Landkreis Rosenheim, Upper Bavaria, Free State of Bavaria, Germany, European Union","lat":"47.9097157","lon":"12.0477963","_id":"J0PdaCDoKMCymMTo"}
-{"id":"倉敷市","name":"水島臨海鉄道 倉敷市駅, 国道429号, Kurashiki, Okayama Prefecture, Chugoku Region, Japan","lat":"34.600788","lon":"133.764923","_id":"JBjA6hByATADLbpS"}
-{"id":"Menasha","name":"Menasha, Calumet County, Wisconsin, United States of America","lat":"44.216405","lon":"-88.3671452636855","_id":"JD6ZmW3F5XEuvu2o"}
-{"id":"Haikou","name":"Haikou, Haikou City, Hainan, People's Republic of China","lat":"20.0423626","lon":"110.3409936","_id":"JTkqQ3RFzYlfrgaQ"}
-{"id":"Changwat Udon Thani","name":"Udon Thani Proivnce, Thailand","lat":"17.45643995","lon":"102.836513312254","_id":"JbkXQiEg3KI5etJB"}
-{"id":"Caudebec-en-Caux","name":"Caudebec-en-Caux, Rouen, Seine-Maritime, Upper Normandy, Metropolitan France, 76490, France","lat":"49.525364","lon":"0.724685","_id":"JgKH5zRPmROgSsWz"}
-{"id":"ハノイ","name":"Hanoi, Đồng Bằng Sông Hồng, Vietnam","lat":"21.0292095","lon":"105.85247","_id":"Jh2pxwq411UKgLn0"}
-{"id":"大庆市","name":"Daqing City, Heilongjiang, People's Republic of China","lat":"46.4256374","lon":"124.4099125397","_id":"JmkUAs9D0EhrLbo4"}
-{"id":"名古屋市","name":"Nagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.183333","lon":"136.9","_id":"JmkoB4ojGyR39U6y"}
-{"id":"千葉市","name":"Chiba, Japan","lat":"35.6041015","lon":"140.180898814268","_id":"JtLZhzYzJlSL7WkY"}
-{"id":"白银市","name":"Baiyin, Baiyin District, Baiyin, Gansu, People's Republic of China","lat":"36.5519459","lon":"104.1466384","_id":"KFiYNflDTTSfrALe"}
-{"id":"攀枝花市","name":"Panzhihua City, Sichuan, People's Republic of China","lat":"26.69721875","lon":"101.724482681822","_id":"KMmRPR6EhXX3MS7j"}
-{"id":"板橋区","name":"Itabashi, Tokyo, Kantō, Japan","lat":"35.751673","lon":"139.7089756","_id":"KT6ubaxDBWL99NT6"}
-{"id":"板橋区","name":"Itabashi, Tokyo, Kantō, Japan","lat":"35.751673","lon":"139.7089756","_id":"KarTlSkET3X2yFa7"}
-{"id":"船橋市","name":"Funabashi, Chiba, Japan","lat":"35.7254989","lon":"140.0174433","_id":"Knte4lT8pcIw0wsy"}
-{"id":"Chicago","name":"Chicago, Cook County, Illinois, United States of America","lat":"41.8756208","lon":"-87.6243706","_id":"Ky2YOGAh9BMnZ86n"}
-{"id":"千歳市","name":"Chitose, Yubari District, Japan","lat":"42.8210658","lon":"141.6511407","_id":"L2k4hE5kFKUMdNxG"}
-{"id":"사상구","name":"Sasang Station, Plaza Ro, Gwaebeopdong, Busan, South Korea","lat":"35.1624759","lon":"128.9887191","_id":"L4l2dsZ0wACdbOpU"}
-{"id":"台東区","name":"Taito, Kitakatsushika, Japan","lat":"35.7152388","lon":"139.78779","_id":"LAkdkEZ43MYiO7xk"}
-{"id":"富士吉田市","name":"Fujiyoshida, Yamanashi, Chubu Region, Japan","lat":"35.5090154","lon":"138.8052326","_id":"LEufJSpoeb5zi3Xy"}
-{"id":"Washtenaw","name":"Washtenaw County, Michigan, United States of America","lat":"42.2582044","lon":"-83.8440853","_id":"LN5ULJAKLtJCmgU7"}
-{"id":"Prachin Buri","name":"Prachin Buri, Thailand","lat":"13.80972005","lon":"102.104163618885","_id":"LOXLbhpZNiwEwb0g"}
-{"id":"苏州市","name":"Suzhou, Jiangsu, People's Republic of China","lat":"31.2984758","lon":"120.622239","_id":"LnwxyhOzF4GJjz6D"}
-{"id":"烟台市","name":"Yantai, 长岛县, Shandong, People's Republic of China","lat":"37.5340488","lon":"121.389463","_id":"LuJe8jUMmXoPCcUF"}
-{"id":"揭阳市","name":"Jieyang City, Guangdong, People's Republic of China","lat":"23.33238445","lon":"116.058856919629","_id":"M7PCbdinRxYznn92"}
-{"id":"Tampines","name":"Tampines, Singapore","lat":"1.3546528","lon":"103.9435712","_id":"MADCAlcew2RcPm9Z"}
-{"id":"Province Sud","name":"Province Sud, New Caledonia, France, Nouvelle-Calédonie, Grande Terre et récifs d'Entrecasteaux (eaux territoriales)","lat":"-22.1822828","lon":"166.541140696917","_id":"MaCRlKlmAZmdf5kG"}
-{"id":"Mihama-Ku, Chiba","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"MbS9VJrDby9wvpDx"}
-{"id":"Capital Region","name":"Capital, 県道36号, Kawai, Kitakatsuragi District, Nara Prefecture, Kinki Region, Japan","lat":"34.5848048","lon":"135.7201358","_id":"MdeMDlujgmzx4EhO"}
-{"id":"Tianjin Shi","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"N3Zxpb8uBzdujLg6"}
-{"id":"紐約","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"NBrJOM3LjRDE2KMK"}
-{"id":"Seoul","name":"Seoul, South Korea","lat":"37.5710824","lon":"126.9953036","_id":"NLzSeFxKCQ3qPOVd"}
-{"id":"Roanoke","name":"Roanoke, Roanoke City, Virginia, United States of America","lat":"37.270973","lon":"-79.9414313","_id":"NM4XZfXd9XQkwcFT"}
-{"id":"苏州市","name":"Suzhou, Jiangsu, People's Republic of China","lat":"31.2984758","lon":"120.622239","_id":"NTIk3YUpOua2qk1S"}
-{"id":"上海市","name":"Shanghai, Huangpu District, Shanghai, People's Republic of China","lat":"31.2253441","lon":"121.4888922","_id":"NV5iz2XcJWDJP4F0"}
-{"id":"Falkirk","name":"Falkirk, Falkirk Council, Scotland, United Kingdom","lat":"55.997286","lon":"-3.7868533","_id":"NcLVGDOc7dgIkLRH"}
-{"id":"Oldham","name":"Oldham, North West England, England, United Kingdom","lat":"53.5415797","lon":"-2.1147831","_id":"NrsWREfWkhg9rftJ"}
-{"id":"Hamilton","name":"Hamilton, Ontario, Canada","lat":"43.254687","lon":"-79.8678197","_id":"OFO4yGuoBnZUiUzD"}
-{"id":"Haikou","name":"Haikou, Haikou City, Hainan, People's Republic of China","lat":"20.0423626","lon":"110.3409936","_id":"OIGVmreJyu7xLsBI"}
-{"id":"栃木市","name":"Tochigi, Shimotsuga, Tochigi, Japan","lat":"36.348713","lon":"139.6881415","_id":"OMQEhJHZstE52FSA"}
-{"id":"Roanoke","name":"Roanoke, Roanoke City, Virginia, United States of America","lat":"37.270973","lon":"-79.9414313","_id":"Oc4fidHiZFGBILLJ"}
-{"id":"Changwat Udon Thani","name":"Udon Thani Proivnce, Thailand","lat":"17.45643995","lon":"102.836513312254","_id":"OeT3pAgKvFsU4ZZg"}
-{"id":"River Valley","name":"River Valley, Allegheny, Pennsylvania, United States of America","lat":"40.5461787","lon":"-79.8214385","_id":"Of2uXPyQi9KRKM9S"}
-{"id":"沈阳市","name":"Shenyang, Shenhe District, Shenyang City, Liaoning, People's Republic of China","lat":"41.8045293","lon":"123.4277858","_id":"OkSyDbaaPLB95ppV"}
-{"id":"千歳市","name":"Chitose, Yubari District, Japan","lat":"42.8210658","lon":"141.6511407","_id":"OpZgEfX2qCM816wj"}
-{"id":"Bangkok","name":"Bangkok, Thailand","lat":"13.5859271","lon":"100.416084040605","_id":"Orao9d0TE6J8acYe"}
-{"id":"苏州市","name":"Suzhou, Jiangsu, People's Republic of China","lat":"31.2984758","lon":"120.622239","_id":"OzQzJxBPlNorBm0y"}
-{"id":"Great Neck Estates","name":"Great Neck Estates, New York, United States of America","lat":"40.7870459","lon":"-73.7367983","_id":"P5s3vppwWIKrpPpH"}
-{"id":"渭南市","name":"Weinan, Linwei District, Weinan City, Shaanxi, People's Republic of China","lat":"34.4976825","lon":"109.4859789","_id":"P7PXNlx4pPL6IpFI"}
-{"id":"香取市","name":"Katori, Chiba, Japan","lat":"35.8883251","lon":"140.4989877","_id":"P9F27EbPLNVe0w5v"}
-{"id":"Taunton","name":"Taunton, Somerset, South West England, England, United Kingdom","lat":"51.015024","lon":"-3.102981","_id":"PBwvaGClkQGFTqd4"}
-{"id":"河内長野市","name":"Kawachinagano, Minamikawachi District, Osaka Prefecture, Kinki Region, Japan","lat":"34.407997","lon":"135.574379","_id":"PH18bi7Rpue6SR9P"}
-{"id":"Capital Region","name":"Capital, 県道36号, Kawai, Kitakatsuragi District, Nara Prefecture, Kinki Region, Japan","lat":"34.5848048","lon":"135.7201358","_id":"PL8meenLWcQhdYQS"}
-{"id":"渋谷区","name":"Shibuya, Tokyo, Kantō, Japan","lat":"35.6639142","lon":"139.6979269","_id":"PqoLniLeFbWS5iM7"}
-{"id":"Chowmuhani","name":"Chowmuhani, Noakhali District, Chittagong Division, Bangladesh","lat":"22.9441687","lon":"91.1056244","_id":"Pv7hqaoBlZsITt9r"}
-{"id":"恵庭市","name":"Eniwa, Sorachi District, Japan","lat":"42.8828665","lon":"141.577406578556","_id":"QMnSh8MSQvFJJoF5"}
-{"id":"江東区","name":"Koto, Tokyo, Kantō, Japan","lat":"35.6726796","lon":"139.8169114","_id":"Qhx5KcTGIJYABiE2"}
-{"id":"江東区","name":"Koto, Tokyo, Kantō, Japan","lat":"35.6726796","lon":"139.8169114","_id":"Qs67jAHg5J1pbxA1"}
-{"id":"Winnipeg","name":"Winnipeg, Rockwood, Manitoba, Canada","lat":"49.8833343","lon":"-97.1666741","_id":"QyCjBIAtlAIKFGgx"}
-{"id":"香取市","name":"Katori, Chiba, Japan","lat":"35.8883251","lon":"140.4989877","_id":"Qz4uz0qrXCl1EGJx"}
-{"id":"会津若松市","name":"Aizu-Wakamatsu, Yama-gun, Fukushima, Tohoku Region, 965-8601, Japan","lat":"37.4911389","lon":"139.932925","_id":"RFWMArXS6zTgdoI2"}
-{"id":"藤枝市","name":"藤枝, 藤枝停車場線, 藤枝市 (Fujieda), Kamo, Japan","lat":"34.8493374","lon":"138.2522114","_id":"RbWsZiARLkmrfusz"}
-{"id":"Caudebec-en-Caux","name":"Caudebec-en-Caux, Rouen, Seine-Maritime, Upper Normandy, Metropolitan France, 76490, France","lat":"49.525364","lon":"0.724685","_id":"RkXUOnpH3ASb9XBu"}
-{"id":"重庆市","name":"Chongqing, Central Chongqing, Chongqing, People's Republic of China","lat":"29.5585712","lon":"106.5492822","_id":"SCtpSimGZTptdEMs"}
-{"id":"Billingshurst","name":"Billingshurst, West Sussex, South East England, England, United Kingdom","lat":"51.0215012","lon":"-0.4519099","_id":"SPwVlx5NLB57HyUk"}
-{"id":"鳥取市","name":"Tottori, 鳥取福部線, Tottori, Tottori Prefecture, Chugoku Region, Japan","lat":"35.493999","lon":"134.2257939","_id":"SRHCp4yQlo8gAaPQ"}
-{"id":"乌鲁木齐市","name":"Tihwa, Xinjiang, People's Republic of China","lat":"43.90603675","lon":"87.642121787697","_id":"Slf4F7c9uBdSTFZJ"}
-{"id":"栃木市","name":"Tochigi, Shimotsuga, Tochigi, Japan","lat":"36.348713","lon":"139.6881415","_id":"SzFB3ZetwNlx3YyI"}
-{"id":"鳥取市","name":"Tottori, 鳥取福部線, Tottori, Tottori Prefecture, Chugoku Region, Japan","lat":"35.493999","lon":"134.2257939","_id":"T1VKgr4SYTeY7mtD"}
-{"id":"中區","name":"Central District, Taichung City, Republic of China","lat":"24.142135","lon":"120.680464710586","_id":"T2DlhP08gRxZGk2k"}
-{"id":"東京都","name":"Tokyo, Kantō, Japan","lat":"35.69004135","lon":"139.510395073475","_id":"TEIkc5df2KK2xHT3"}
-{"id":"千葉市","name":"Chiba, Japan","lat":"35.6041015","lon":"140.180898814268","_id":"TUTzxdVyd9088fOq"}
-{"id":"Beawar","name":"Beawar, Ajmer, Rajasthan, India","lat":"26.08805","lon":"74.3074118422819","_id":"TYYpz27yq6QDz5OR"}
-{"id":"栗原市","name":"Yuzhno-Sakhalinsk, городской округ Южно-Сахалинск, Sakhalin Oblast, Far Eastern Federal District, Russian Federation","lat":"46.9574273","lon":"142.727438","_id":"TgXEAqvkzklkbGW3"}
-{"id":"南京市","name":"Nanjing City, Jiangsu, People's Republic of China","lat":"32.0609158","lon":"118.7916065","_id":"ToaUjF6ujJgrI7XO"}
-{"id":"大庆市","name":"Daqing City, Heilongjiang, People's Republic of China","lat":"46.4256374","lon":"124.4099125397","_id":"Tp91yMDi88Y2kMdI"}
-{"id":"泸州市","name":"Luzhou City, Sichuan, People's Republic of China","lat":"28.50043155","lon":"105.426526680747","_id":"Tpho9OsTNKbbxr5L"}
-{"id":"知立市","name":"Chiryu, Chita, Aichi, Chubu Region, Japan","lat":"35.0004245","lon":"137.0512155","_id":"TuyBdfwG1ekQQiRc"}
-{"id":"延岡市","name":"延岡市 (Nobeoka), 東臼杵郡 (Higashiusuki), Kyushu Region, Japan","lat":"32.664409","lon":"131.657243","_id":"TwFhVtOB5ViNGpQ2"}
-{"id":"渭南市","name":"Weinan, Linwei District, Weinan City, Shaanxi, People's Republic of China","lat":"34.4976825","lon":"109.4859789","_id":"U1AjRc6PHyDN6Zpu"}
-{"id":"Capital Region","name":"Capital, 県道36号, Kawai, Kitakatsuragi District, Nara Prefecture, Kinki Region, Japan","lat":"34.5848048","lon":"135.7201358","_id":"UP6jv9RI45gBc1dQ"}
-{"id":"哥本哈根","name":"Copenhagen, Copenhagen Municipality, Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"USmrtj0Cr8ZMVqLY"}
-{"id":"Beawar","name":"Beawar, Ajmer, Rajasthan, India","lat":"26.08805","lon":"74.3074118422819","_id":"UXOmHwwgr1x8hLKN"}
-{"id":"千葉市 美浜区","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"UqLSoYWvdyYTdG0x"}
-{"id":"Newry","name":"Newry, Ulster, Northern Ireland, United Kingdom","lat":"54.1775283","lon":"-6.337506","_id":"UqW6qaBzLVj4vaOm"}
-{"id":"Geylang","name":"Geylang, Singapore","lat":"1.3181862","lon":"103.8870563","_id":"VJcWNx2KaIEJapNy"}
-{"id":"Chicago","name":"Chicago, Cook County, Illinois, United States of America","lat":"41.8756208","lon":"-87.6243706","_id":"VKCKOZ9IkSwgU4W2"}
-{"id":"北区","name":"North District, Tainan City, 704, Republic of China","lat":"22.999492","lon":"120.202975","_id":"VM3nks5SdHXsZjhi"}
-{"id":"渭南市","name":"Weinan, Linwei District, Weinan City, Shaanxi, People's Republic of China","lat":"34.4976825","lon":"109.4859789","_id":"VVxTyVl9h70z2Rd8"}
-{"id":"福州市","name":"Fuzhou, Gulou District, Fuzhou City, Fujian, People's Republic of China","lat":"26.0774554","lon":"119.2915465","_id":"VYOusJm7pWjZbhn3"}
-{"id":"上海市","name":"Shanghai, Huangpu District, Shanghai, People's Republic of China","lat":"31.2253441","lon":"121.4888922","_id":"VdFqMTw1IrGEiw5a"}
-{"id":"千代田区","name":"Chiyoda, Tokyo, Kantō, Japan","lat":"35.6885203","lon":"139.7514388","_id":"Vgl3yEYSyQv6pLI0"}
-{"id":"北區","name":"North District, Tainan City, 704, Republic of China","lat":"22.999492","lon":"120.202975","_id":"VtTwXTmkpUnok8xA"}
-{"id":"香取市","name":"Katori, Chiba, Japan","lat":"35.8883251","lon":"140.4989877","_id":"VuHhhaGlDF2DANw7"}
-{"id":"사상구","name":"Sasang Station, Plaza Ro, Gwaebeopdong, Busan, South Korea","lat":"35.1624759","lon":"128.9887191","_id":"W0KDsQJePSqzHMuY"}
-{"id":"リオ・デ・ジャネイロ","name":"RJ, Southeast Region, Brazil","lat":"-22.2752762","lon":"-42.419415","_id":"W60zzDWBkdPZFRUW"}
-{"id":"Gansu Sheng","name":"Gansu Province, People's Republic of China","lat":"38.0000001","lon":"101.9999999","_id":"WINP9YLAIdlCS6H0"}
-{"id":"Parma","name":"Parma, PR, Emilia-Romagna, Italy","lat":"44.8011232","lon":"10.3285084","_id":"WajYBZOe2gl9Vhh1"}
-{"id":"千葉市 美浜区","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"WcfzoiAKzI6yXkj0"}
-{"id":"Gansu Sheng","name":"Gansu Province, People's Republic of China","lat":"38.0000001","lon":"101.9999999","_id":"Wern20aK3ek5geUJ"}
-{"id":"Mihama-Ku, Chiba","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"X2f7IKEEs6vfQoC1"}
-{"id":"渋谷区","name":"Shibuya, Tokyo, Kantō, Japan","lat":"35.6639142","lon":"139.6979269","_id":"X8DuAcBwMXUXK9xd"}
-{"id":"Bangkok","name":"Bangkok, Thailand","lat":"13.5859271","lon":"100.416084040605","_id":"X8ik3GuJUzgZ9MK7"}
-{"id":"ハノイ","name":"Hanoi, Đồng Bằng Sông Hồng, Vietnam","lat":"21.0292095","lon":"105.85247","_id":"XhKCw5BwoqzOOrUI"}
-{"id":"伯明翰","name":"Birmingham, West Midlands, England, United Kingdom","lat":"52.4813679","lon":"-1.8980726","_id":"XymuGI8H23f0Wkbd"}
-{"id":"Geylang","name":"Geylang, Singapore","lat":"1.3181862","lon":"103.8870563","_id":"Y2lQWYE9cBHsrZwf"}
-{"id":"兰州市","name":"Lanzhou, Chengguan District, Lanzhou, Gansu, People's Republic of China","lat":"36.0612545","lon":"103.8318602","_id":"Y3MH8QpbfwC4Hgrs"}
-{"id":"乌鲁木齐市","name":"Tihwa, Xinjiang, People's Republic of China","lat":"43.90603675","lon":"87.642121787697","_id":"YFIeIS5nJcampcgA"}
-{"id":"東員町","name":"東原町, 大阪高槻京都線, Suita, Mishima District, Osaka Prefecture, Kinki Region, Japan","lat":"34.7726316","lon":"135.5294808","_id":"Z1G8dvIVi050iScW"}
-{"id":"San Diego","name":"San Diego, San Diego County, California, United States of America","lat":"32.7469869","lon":"-117.21177","_id":"ZCI4mDMEYK2mQE0G"}
-{"id":"중구","name":"Jung-gu, Seoul, South Korea","lat":"37.5578999","lon":"126.992913273511","_id":"ZNACywihnb6TKlRZ"}
-{"id":"Boston","name":"Boston, Suffolk County, Massachusetts, United States of America","lat":"42.3604823","lon":"-71.0595678","_id":"ZQsfiJz48CWMReBP"}
-{"id":"沈阳市","name":"Shenyang, Shenhe District, Shenyang City, Liaoning, People's Republic of China","lat":"41.8045293","lon":"123.4277858","_id":"ZTe782MJapCBLOvz"}
-{"id":"多摩市","name":"Tama, Tokyo, Kantō, Japan","lat":"35.6364066","lon":"139.4450731","_id":"ZWhoiuBbX8a03mKC"}
-{"id":"苏州市","name":"Suzhou, Jiangsu, People's Republic of China","lat":"31.2984758","lon":"120.622239","_id":"Zd1ON4zQdLEgSurr"}
-{"id":"江東区","name":"Koto, Tokyo, Kantō, Japan","lat":"35.6726796","lon":"139.8169114","_id":"a9f5fjmuYjkLAlBI"}
-{"id":"渋谷区","name":"Shibuya, Tokyo, Kantō, Japan","lat":"35.6639142","lon":"139.6979269","_id":"aIUGbpizWxZcNHOK"}
-{"id":"Pismo Beach","name":"Pismo Beach, San Luis Obispo, California, United States of America","lat":"35.1478715","lon":"-120.678291095752","_id":"aWg85ZnthsmYmV1W"}
-{"id":"藤枝市","name":"藤枝, 藤枝停車場線, 藤枝市 (Fujieda), Kamo, Japan","lat":"34.8493374","lon":"138.2522114","_id":"aajAzFsccBfRQzuu"}
-{"id":"Billingshurst","name":"Billingshurst, West Sussex, South East England, England, United Kingdom","lat":"51.0215012","lon":"-0.4519099","_id":"aaqE7BKSMT4sWT6M"}
-{"id":"Seoul","name":"Seoul, South Korea","lat":"37.5710824","lon":"126.9953036","_id":"adac0X6S22fRlNHK"}
-{"id":"Chowmuhani","name":"Chowmuhani, Noakhali District, Chittagong Division, Bangladesh","lat":"22.9441687","lon":"91.1056244","_id":"apNaPxv6VOiXN9kp"}
-{"id":"横浜市","name":"Yokohama, Kanagawa, Japan","lat":"35.4449524","lon":"139.6421049","_id":"apt9POtL3gl86doi"}
-{"id":"多摩市","name":"Tama, Tokyo, Kantō, Japan","lat":"35.6364066","lon":"139.4450731","_id":"aziFaoes37jIJvAY"}
-{"id":"名古屋市 西区","name":"Nishi Ward, National Route 22, Nagoya, Chita, Aichi, Chubu Region, 451-8508, Japan","lat":"35.185641","lon":"136.885936","_id":"b2WEMQ4w5D6ywQqg"}
-{"id":"Holden Heights","name":"Holden Heights, Orange County, Florida, United States of America","lat":"28.52062035","lon":"-81.3980724658651","_id":"bJKEiG14bw1W7wlx"}
-{"id":"藤枝市","name":"藤枝, 藤枝停車場線, 藤枝市 (Fujieda), Kamo, Japan","lat":"34.8493374","lon":"138.2522114","_id":"bUJQo7Er0d3y0etD"}
-{"id":"Ester","name":"Ester, Landkreis Rosenheim, Upper Bavaria, Free State of Bavaria, Germany, European Union","lat":"47.9097157","lon":"12.0477963","_id":"bWCMtFuZTLZsQ3YT"}
-{"id":"江東区","name":"Koto, Tokyo, Kantō, Japan","lat":"35.6726796","lon":"139.8169114","_id":"bdZFcYToJYJY3zVw"}
-{"id":"Kitanagoya","name":"Kitanagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.2458645","lon":"136.871992","_id":"bszyRgsn8Fd6M619"}
-{"id":"横浜市","name":"Yokohama, Kanagawa, Japan","lat":"35.4449524","lon":"139.6421049","_id":"btHunWtkIWWwk6OK"}
-{"id":"Boston","name":"Boston, Suffolk County, Massachusetts, United States of America","lat":"42.3604823","lon":"-71.0595678","_id":"bwQqLdA6fBfltZxC"}
-{"id":"San Diego","name":"San Diego, San Diego County, California, United States of America","lat":"32.7469869","lon":"-117.21177","_id":"c8fFJtvPEN2oeVWO"}
-{"id":"大庆市","name":"Daqing City, Heilongjiang, People's Republic of China","lat":"46.4256374","lon":"124.4099125397","_id":"cDo4ATCIYxFjXb2q"}
-{"id":"船橋市","name":"Funabashi, Chiba, Japan","lat":"35.7254989","lon":"140.0174433","_id":"cFN6n49kC3Brprrl"}
-{"id":"Kumamoto","name":"Kumamoto, 下益城郡 (Shimomakishi), Kyushu Region, Japan","lat":"32.7833323","lon":"130.7333361","_id":"cNBsOQRfun7ZmOo3"}
-{"id":"Norman","name":"Norman, Oklahoma, United States of America","lat":"35.2225717","lon":"-97.4394816","_id":"cOyvi2iupRbaOzU1"}
-{"id":"揭阳市","name":"Jieyang City, Guangdong, People's Republic of China","lat":"23.33238445","lon":"116.058856919629","_id":"cPiyCvvBlmeehXF7"}
-{"id":"リオ・デ・ジャネイロ","name":"RJ, Southeast Region, Brazil","lat":"-22.2752762","lon":"-42.419415","_id":"cbNTpdvSyqBqACYc"}
-{"id":"千葉市 美浜区","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"cc78c9LDmPZ0fl2x"}
-{"id":"Chowmuhani","name":"Chowmuhani, Noakhali District, Chittagong Division, Bangladesh","lat":"22.9441687","lon":"91.1056244","_id":"cyDi5ua8qz4WOPeZ"}
-{"id":"南都留郡 山中湖村","name":"南都留郡 山中湖村","lat":null,"lon":null,"_id":"d2jLrcBw2IbFH86W"}
-{"id":"Dededo Mayor's Office","name":"Dededo Mayor's Office","lat":null,"lon":null,"_id":"d8F3US0URXTspFgo"}
-{"id":"Carlisle","name":"Carlisle, Cumberland County, Pennsylvania, United States of America","lat":"40.201824","lon":"-77.1893888","_id":"dDHsPEUwmv9BfDwZ"}
-{"id":"南京市","name":"Nanjing City, Jiangsu, People's Republic of China","lat":"32.0609158","lon":"118.7916065","_id":"dEc8iSbkyNzoKN98"}
-{"id":"Bangkok","name":"Bangkok, Thailand","lat":"13.5859271","lon":"100.416084040605","_id":"dH13ehnAEJbYmrV1"}
-{"id":"河内長野市","name":"Kawachinagano, Minamikawachi District, Osaka Prefecture, Kinki Region, Japan","lat":"34.407997","lon":"135.574379","_id":"dOxnujCvguIZV69Z"}
-{"id":"New York","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"dchxqHzi6bKNsFE8"}
-{"id":"重庆市","name":"Chongqing, Central Chongqing, Chongqing, People's Republic of China","lat":"29.5585712","lon":"106.5492822","_id":"dp1mvswUwC0ieIsh"}
-{"id":"성남시","name":"Seongnam, Gyeonggi-do, South Korea","lat":"37.4201556","lon":"127.1262092","_id":"e0Cxap9dkmDAxD4U"}
-{"id":"Billingshurst","name":"Billingshurst, West Sussex, South East England, England, United Kingdom","lat":"51.0215012","lon":"-0.4519099","_id":"e0YiOfhgbUcDux8S"}
-{"id":"萍乡市","name":"Pingxiang, Anyuan District, Pingxiang City, Jiangxi, People's Republic of China","lat":"27.6260249","lon":"113.849129","_id":"eEPUrECHlGWBzpgz"}
-{"id":"Parkville","name":"Parkville, Baltimore, Maryland, United States of America","lat":"39.3773292","lon":"-76.5396875","_id":"eJ1gJ7nsXdzb9ku1"}
-{"id":"福州市","name":"Fuzhou, Gulou District, Fuzhou City, Fujian, People's Republic of China","lat":"26.0774554","lon":"119.2915465","_id":"eJVAMWOYys36qMzp"}
-{"id":"Washtenaw","name":"Washtenaw County, Michigan, United States of America","lat":"42.2582044","lon":"-83.8440853","_id":"eRSXQWB8sPfGt7ae"}
-{"id":"Gansu Sheng","name":"Gansu Province, People's Republic of China","lat":"38.0000001","lon":"101.9999999","_id":"eUSzbcaN1LigB3kW"}
-{"id":"Tianjin Shi","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"efEQSVzEdRDddXBU"}
-{"id":"栃木市","name":"Tochigi, Shimotsuga, Tochigi, Japan","lat":"36.348713","lon":"139.6881415","_id":"ehHZcyK1BDJKi4hS"}
-{"id":"Higashihiroshima","name":"Higashihiroshima, Hiroshima Prefecture, Chugoku Region, Japan","lat":"34.4268575","lon":"132.7435593","_id":"epKQVG0jabMTINLz"}
-{"id":"知立市","name":"Chiryu, Chita, Aichi, Chubu Region, Japan","lat":"35.0004245","lon":"137.0512155","_id":"esPlLZzpVNQVWcnN"}
-{"id":"Hamilton","name":"Hamilton, Ontario, Canada","lat":"43.254687","lon":"-79.8678197","_id":"fFtAh2dY4jPPKmsb"}
-{"id":"Seoul","name":"Seoul, South Korea","lat":"37.5710824","lon":"126.9953036","_id":"fYcbidPmqaxaSJTg"}
-{"id":"烟台市","name":"Yantai, 长岛县, Shandong, People's Republic of China","lat":"37.5340488","lon":"121.389463","_id":"fuwuouV9zAt9VQGQ"}
-{"id":"会津若松市","name":"Aizu-Wakamatsu, Yama-gun, Fukushima, Tohoku Region, 965-8601, Japan","lat":"37.4911389","lon":"139.932925","_id":"fzQPALCtHWF3Isun"}
-{"id":"Arlington","name":"Arlington, Tarrant County, Texas, United States of America","lat":"32.735687","lon":"-97.1080656","_id":"gOM97CCP1sgzkuhl"}
-{"id":"重庆市","name":"Chongqing, Central Chongqing, Chongqing, People's Republic of China","lat":"29.5585712","lon":"106.5492822","_id":"gVSsDEfpVaEr7wub"}
-{"id":"横浜市","name":"Yokohama, Kanagawa, Japan","lat":"35.4449524","lon":"139.6421049","_id":"gbcQ2D0W1B4GHtXD"}
-{"id":"Washtenaw","name":"Washtenaw County, Michigan, United States of America","lat":"42.2582044","lon":"-83.8440853","_id":"ggeu7BXncTCGYEXH"}
-{"id":"Harlingen","name":"Harlingen, Cameron County, Texas, United States of America","lat":"26.1906306","lon":"-97.6961026","_id":"ggo0GtLQyYxxdgSG"}
-{"id":"New York","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"hAPvpbjNgwwiaqTn"}
-{"id":"小港區","name":"Siaogang, Kaohsiung City, 812","lat":"22.54727755","lon":"120.355994739698","_id":"hBMdelNJJ9RXCv10"}
-{"id":"New York","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"hBnDMfveLmhErsSf"}
-{"id":"北區","name":"North District, Tainan City, 704, Republic of China","lat":"22.999492","lon":"120.202975","_id":"hJ02tytSGhMfX3Mm"}
-{"id":"San Diego","name":"San Diego, San Diego County, California, United States of America","lat":"32.7469869","lon":"-117.21177","_id":"hTdh6fMuklXP1W3n"}
-{"id":"Tuscany","name":"Tuscany, Italy","lat":"43.4586541","lon":"11.1389204","_id":"hZz5yMw6CohPKETm"}
-{"id":"Hamilton","name":"Hamilton, Ontario, Canada","lat":"43.254687","lon":"-79.8678197","_id":"hbl6ChyW5tpS97VC"}
-{"id":"Holden Heights","name":"Holden Heights, Orange County, Florida, United States of America","lat":"28.52062035","lon":"-81.3980724658651","_id":"hcUdE2goJcTqbanA"}
-{"id":"小港區","name":"Siaogang, Kaohsiung City, 812","lat":"22.54727755","lon":"120.355994739698","_id":"hobeSJiMT36PkAeP"}
-{"id":"大阪市 此花区","name":"Konohana Ward, Senboku District, Osaka Prefecture, Kinki Region, Japan","lat":"34.670951","lon":"135.422471","_id":"hqTijcloDF6ayeUP"}
-{"id":"Chicago","name":"Chicago, Cook County, Illinois, United States of America","lat":"41.8756208","lon":"-87.6243706","_id":"hvxl8AfX7Uzd5fvZ"}
-{"id":"晋中市","name":"Jinzhong, Yuci District, Jinzhong City, Shanxi, People's Republic of China","lat":"37.6731633","lon":"112.7439068","_id":"iIAGcpPk6KKpMDxj"}
-{"id":"大庆市","name":"Daqing City, Heilongjiang, People's Republic of China","lat":"46.4256374","lon":"124.4099125397","_id":"iRZgoqAkNiFxYWwB"}
-{"id":"萍乡市","name":"Pingxiang, Anyuan District, Pingxiang City, Jiangxi, People's Republic of China","lat":"27.6260249","lon":"113.849129","_id":"iS0VYex9RJWGSSC3"}
-{"id":"성남시","name":"Seongnam, Gyeonggi-do, South Korea","lat":"37.4201556","lon":"127.1262092","_id":"iS7DtWpEh7lDRKyF"}
-{"id":"中區","name":"Central District, Taichung City, Republic of China","lat":"24.142135","lon":"120.680464710586","_id":"ikn3GrrvAarBu8YI"}
-{"id":"Hamilton","name":"Hamilton, Ontario, Canada","lat":"43.254687","lon":"-79.8678197","_id":"ivjFfqIHPhen5A2A"}
-{"id":"连云港市","name":"Lianyungang, 灌云县, Lianyungang City, Jiangsu, People's Republic of China","lat":"34.6092633","lon":"119.1695305","_id":"j1kTV7h5MSuYaffn"}
-{"id":"Southern Finland Province","name":"Southern Finland Province","lat":null,"lon":null,"_id":"jAvl8cgb1cPdQ6Sa"}
-{"id":"水戸市","name":"Mito, Ibaraki, Japan","lat":"36.3825815","lon":"140.405123811532","_id":"jEYvz0xGovqIctfp"}
-{"id":"多摩市","name":"Tama, Tokyo, Kantō, Japan","lat":"35.6364066","lon":"139.4450731","_id":"jEtUuFQFoZE5ncr9"}
-{"id":"Newry","name":"Newry, Ulster, Northern Ireland, United Kingdom","lat":"54.1775283","lon":"-6.337506","_id":"jKP9IWV5crp3G6Bu"}
-{"id":"Prachin Buri","name":"Prachin Buri, Thailand","lat":"13.80972005","lon":"102.104163618885","_id":"jPEUm7J38OWgtgaN"}
-{"id":"会津若松市","name":"Aizu-Wakamatsu, Yama-gun, Fukushima, Tohoku Region, 965-8601, Japan","lat":"37.4911389","lon":"139.932925","_id":"jTKy37fyqhOzYxuS"}
-{"id":"河内長野市","name":"Kawachinagano, Minamikawachi District, Osaka Prefecture, Kinki Region, Japan","lat":"34.407997","lon":"135.574379","_id":"jasAm9EyQ3PiK3AB"}
-{"id":"乌鲁木齐市","name":"Tihwa, Xinjiang, People's Republic of China","lat":"43.90603675","lon":"87.642121787697","_id":"jhNBptk9qI5rlL5f"}
-{"id":"哥本哈根","name":"Copenhagen, Copenhagen Municipality, Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"jutdCIvgEfBcRZRK"}
-{"id":"水戸市","name":"Mito, Ibaraki, Japan","lat":"36.3825815","lon":"140.405123811532","_id":"kLS9fYlIKbwDjJGQ"}
-{"id":"横浜市","name":"Yokohama, Kanagawa, Japan","lat":"35.4449524","lon":"139.6421049","_id":"kZL4jiOJjSsqxFFK"}
-{"id":"Parkville","name":"Parkville, Baltimore, Maryland, United States of America","lat":"39.3773292","lon":"-76.5396875","_id":"keCxuDsL1eXqn19c"}
-{"id":"Taunton","name":"Taunton, Somerset, South West England, England, United Kingdom","lat":"51.015024","lon":"-3.102981","_id":"knJCLARh0jah1Pop"}
-{"id":"成都市","name":"Chengdu, 双流县, Chengdu City, Sichuan, People's Republic of China","lat":"30.6765553","lon":"104.0612783","_id":"koP20u4aqbzrXMDK"}
-{"id":"会津若松市","name":"Aizu-Wakamatsu, Yama-gun, Fukushima, Tohoku Region, 965-8601, Japan","lat":"37.4911389","lon":"139.932925","_id":"kwlgxmQdQKX6EzRD"}
-{"id":"名古屋市","name":"Nagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.183333","lon":"136.9","_id":"kxlYRlwuQE6ORd9x"}
-{"id":"栗原市","name":"Yuzhno-Sakhalinsk, городской округ Южно-Сахалинск, Sakhalin Oblast, Far Eastern Federal District, Russian Federation","lat":"46.9574273","lon":"142.727438","_id":"lINMHclbnhvhsSQR"}
-{"id":"倉敷市","name":"水島臨海鉄道 倉敷市駅, 国道429号, Kurashiki, Okayama Prefecture, Chugoku Region, Japan","lat":"34.600788","lon":"133.764923","_id":"lTepY6W73D8xz8HN"}
-{"id":"ハノイ","name":"Hanoi, Đồng Bằng Sông Hồng, Vietnam","lat":"21.0292095","lon":"105.85247","_id":"lbKop4xk6dvXkxUI"}
-{"id":"중구","name":"Jung-gu, Seoul, South Korea","lat":"37.5578999","lon":"126.992913273511","_id":"lgBSljw9HsPdKUiy"}
-{"id":"攀枝花市","name":"Panzhihua City, Sichuan, People's Republic of China","lat":"26.69721875","lon":"101.724482681822","_id":"lvAaXcX1YFjHboUj"}
-{"id":"St Peters","name":"St. Peters, St. Charles County, Missouri, United States of America","lat":"38.8010514","lon":"-90.627881","_id":"lx9qZHeIn4eHWQJh"}
-{"id":"中山區","name":"Zhongshan District, Liupanshui City, Guizhou, People's Republic of China","lat":"26.8007744","lon":"104.648009563919","_id":"m2kCp7N71rivZfvt"}
-{"id":"攀枝花市","name":"Panzhihua City, Sichuan, People's Republic of China","lat":"26.69721875","lon":"101.724482681822","_id":"m3MTuK6qicbyZ60f"}
-{"id":"Ribeira Grande","name":"Ribeira Grande, São Miguel, Territorial waters of São Miguel and Santa Maria","lat":"37.8229295","lon":"-25.520221","_id":"mIkOVV2k4J9yKpU2"}
-{"id":"Parma","name":"Parma, PR, Emilia-Romagna, Italy","lat":"44.8011232","lon":"10.3285084","_id":"mK8VwhXzE5Sgm6yy"}
-{"id":"Province Sud","name":"Province Sud, New Caledonia, France, Nouvelle-Calédonie, Grande Terre et récifs d'Entrecasteaux (eaux territoriales)","lat":"-22.1822828","lon":"166.541140696917","_id":"mScE60vsrdMJTdHF"}
-{"id":"倉敷市","name":"水島臨海鉄道 倉敷市駅, 国道429号, Kurashiki, Okayama Prefecture, Chugoku Region, Japan","lat":"34.600788","lon":"133.764923","_id":"mUHCrR7PnbOazmv9"}
-{"id":"Arlington","name":"Arlington, Tarrant County, Texas, United States of America","lat":"32.735687","lon":"-97.1080656","_id":"mULvzrmSGoyt4J9T"}
-{"id":"小港區","name":"Siaogang, Kaohsiung City, 812","lat":"22.54727755","lon":"120.355994739698","_id":"mXlnLJ89mGe8ruRk"}
-{"id":"東員町","name":"東原町, 大阪高槻京都線, Suita, Mishima District, Osaka Prefecture, Kinki Region, Japan","lat":"34.7726316","lon":"135.5294808","_id":"mcCpNbVVZjoOckkD"}
-{"id":"Capital Region","name":"Capital, 県道36号, Kawai, Kitakatsuragi District, Nara Prefecture, Kinki Region, Japan","lat":"34.5848048","lon":"135.7201358","_id":"mr90A3IKzcBBmeJM"}
-{"id":"紐約","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"nNnQmFWYiqFStnnk"}
-{"id":"Richmond","name":"Richmond, Henrico, Virginia, United States of America","lat":"37.5385087","lon":"-77.43428","_id":"nU05ZPlWRDnslX74"}
-{"id":"Oldham","name":"Oldham, North West England, England, United Kingdom","lat":"53.5415797","lon":"-2.1147831","_id":"nlDtBe1Qv0pp5JUY"}
-{"id":"Kitanagoya","name":"Kitanagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.2458645","lon":"136.871992","_id":"o3ErkPhf5RYlzXxa"}
-{"id":"紐約","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"o5P95ycqVFLJrHnb"}
-{"id":"Norman","name":"Norman, Oklahoma, United States of America","lat":"35.2225717","lon":"-97.4394816","_id":"o72hcKxWjI1LpnAp"}
-{"id":"Roanoke","name":"Roanoke, Roanoke City, Virginia, United States of America","lat":"37.270973","lon":"-79.9414313","_id":"o7nqdHD3FJGSuvQg"}
-{"id":"Winnipeg","name":"Winnipeg, Rockwood, Manitoba, Canada","lat":"49.8833343","lon":"-97.1666741","_id":"oLohf98saHkDOoUO"}
-{"id":"River Valley","name":"River Valley, Allegheny, Pennsylvania, United States of America","lat":"40.5461787","lon":"-79.8214385","_id":"oN7AoGA2hGtyEYlK"}
-{"id":"リオ・デ・ジャネイロ","name":"RJ, Southeast Region, Brazil","lat":"-22.2752762","lon":"-42.419415","_id":"oX6L7e7QqQV2RhLO"}
-{"id":"Parma","name":"Parma, PR, Emilia-Romagna, Italy","lat":"44.8011232","lon":"10.3285084","_id":"on6CxpVr92Onnzgv"}
-{"id":"板橋区","name":"Itabashi, Tokyo, Kantō, Japan","lat":"35.751673","lon":"139.7089756","_id":"opcMZl3kfG2rgujl"}
-{"id":"紐約","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"osJp2pKF1YaIqkjm"}
-{"id":"Billingshurst","name":"Billingshurst, West Sussex, South East England, England, United Kingdom","lat":"51.0215012","lon":"-0.4519099","_id":"ot0ui7dZ5M1HjgsS"}
-{"id":"Tianjin Shi","name":"Tianjin, Heping District, Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"oynGcxMzQ1dL7FKS"}
-{"id":"Kitanagoya","name":"Kitanagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.2458645","lon":"136.871992","_id":"p24eg5yxJ6p4Zqco"}
-{"id":"Arlington","name":"Arlington, Tarrant County, Texas, United States of America","lat":"32.735687","lon":"-97.1080656","_id":"p5VZIyR4iLmTs5IJ"}
-{"id":"Carlisle","name":"Carlisle, Cumberland County, Pennsylvania, United States of America","lat":"40.201824","lon":"-77.1893888","_id":"pEBhu81wlxdgYbq9"}
-{"id":"사상구","name":"Sasang Station, Plaza Ro, Gwaebeopdong, Busan, South Korea","lat":"35.1624759","lon":"128.9887191","_id":"pF9IwOlHPiyQf3rS"}
-{"id":"Harlingen","name":"Harlingen, Cameron County, Texas, United States of America","lat":"26.1906306","lon":"-97.6961026","_id":"pItHnq04VFdOoNdw"}
-{"id":"Portsmouth","name":"Portsmouth, South East England, England, United Kingdom","lat":"50.81842365","lon":"-1.08087406133344","_id":"pQkJujMey7Ba5XVd"}
-{"id":"Ribeira Grande","name":"Ribeira Grande, São Miguel, Territorial waters of São Miguel and Santa Maria","lat":"37.8229295","lon":"-25.520221","_id":"pi1TsGTnAFbqwC5f"}
-{"id":"北京市","name":"Beijing, People's Republic of China","lat":"40.2505379","lon":"116.625088590652","_id":"puUHt956JNFnKrbW"}
-{"id":"Beawar","name":"Beawar, Ajmer, Rajasthan, India","lat":"26.08805","lon":"74.3074118422819","_id":"qKGBrSuuDiu1WrnP"}
-{"id":"烟台市","name":"Yantai, 长岛县, Shandong, People's Republic of China","lat":"37.5340488","lon":"121.389463","_id":"qN1HeyOI5pKFPZf4"}
-{"id":"连云港市","name":"Lianyungang, 灌云县, Lianyungang City, Jiangsu, People's Republic of China","lat":"34.6092633","lon":"119.1695305","_id":"qpZwXzPf0OobVa7e"}
-{"id":"攀枝花市","name":"Panzhihua City, Sichuan, People's Republic of China","lat":"26.69721875","lon":"101.724482681822","_id":"r8XNUWxm0jw0IGpH"}
-{"id":"중구","name":"Jung-gu, Seoul, South Korea","lat":"37.5578999","lon":"126.992913273511","_id":"rAJQq9QF1qlF0rt9"}
-{"id":"会津若松市","name":"Aizu-Wakamatsu, Yama-gun, Fukushima, Tohoku Region, 965-8601, Japan","lat":"37.4911389","lon":"139.932925","_id":"rLh54EvneeBhaw0L"}
-{"id":"名古屋市 西区","name":"Nishi Ward, National Route 22, Nagoya, Chita, Aichi, Chubu Region, 451-8508, Japan","lat":"35.185641","lon":"136.885936","_id":"rMV5HDk3C5TSWm06"}
-{"id":"千葉市 美浜区","name":"Mihama ward, Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"rMiayW3YE83TRTrV"}
-{"id":"船橋市","name":"Funabashi, Chiba, Japan","lat":"35.7254989","lon":"140.0174433","_id":"rygNf2oEcdoN3Pxt"}
-{"id":"苏州市","name":"Suzhou, Jiangsu, People's Republic of China","lat":"31.2984758","lon":"120.622239","_id":"s7FjLd5REppiLYvE"}
-{"id":"Haikou","name":"Haikou, Haikou City, Hainan, People's Republic of China","lat":"20.0423626","lon":"110.3409936","_id":"sGenNdOXukhOG17e"}
-{"id":"Province Sud","name":"Province Sud, New Caledonia, France, Nouvelle-Calédonie, Grande Terre et récifs d'Entrecasteaux (eaux territoriales)","lat":"-22.1822828","lon":"166.541140696917","_id":"sOlxAzLyS3EoDjSl"}
-{"id":"Rio Grande do Norte","name":"RN, Northeast Region, Brazil","lat":"-5.6781175","lon":"-36.4781776","_id":"sTlykn5xMHr26W6Q"}
-{"id":"Holden Heights","name":"Holden Heights, Orange County, Florida, United States of America","lat":"28.52062035","lon":"-81.3980724658651","_id":"sU8brcpIQAyoS522"}
-{"id":"Beawar","name":"Beawar, Ajmer, Rajasthan, India","lat":"26.08805","lon":"74.3074118422819","_id":"sfh4QcTOW1duCprX"}
-{"id":"北區","name":"North District, Tainan City, 704, Republic of China","lat":"22.999492","lon":"120.202975","_id":"ssATf3unoSwwnBU8"}
-{"id":"Portsmouth","name":"Portsmouth, South East England, England, United Kingdom","lat":"50.81842365","lon":"-1.08087406133344","_id":"sw8vWXwR52eMHYVv"}
-{"id":"Taunton","name":"Taunton, Somerset, South West England, England, United Kingdom","lat":"51.015024","lon":"-3.102981","_id":"szm03scG4BWg0NEG"}
-{"id":"富士吉田市","name":"Fujiyoshida, Yamanashi, Chubu Region, Japan","lat":"35.5090154","lon":"138.8052326","_id":"teB8VQAXpLLPCD81"}
-{"id":"Kumamoto","name":"Kumamoto, 下益城郡 (Shimomakishi), Kyushu Region, Japan","lat":"32.7833323","lon":"130.7333361","_id":"tnqOX7yEqzagfQYv"}
-{"id":"Harlingen","name":"Harlingen, Cameron County, Texas, United States of America","lat":"26.1906306","lon":"-97.6961026","_id":"tobv36R2mTaqW02f"}
-{"id":"千葉市","name":"Chiba, Japan","lat":"35.6041015","lon":"140.180898814268","_id":"u5iPyqRX6UbvEb0L"}
-{"id":"Haikou","name":"Haikou, Haikou City, Hainan, People's Republic of China","lat":"20.0423626","lon":"110.3409936","_id":"u8EMKl4FjA7REdMG"}
-{"id":"乌鲁木齐市","name":"Tihwa, Xinjiang, People's Republic of China","lat":"43.90603675","lon":"87.642121787697","_id":"un9wQVW4nN3TfLmk"}
-{"id":"千歳市","name":"Chitose, Yubari District, Japan","lat":"42.8210658","lon":"141.6511407","_id":"uv6H9W18mslZYO1a"}
-{"id":"深圳市","name":"Shenzhen, Shenzhen City, Guangdong, People's Republic of China","lat":"22.5462321","lon":"114.0570068","_id":"v8sbjxxvnmtG9iGp"}
-{"id":"Parma","name":"Parma, PR, Emilia-Romagna, Italy","lat":"44.8011232","lon":"10.3285084","_id":"vDaSNc6IWOLLxErn"}
-{"id":"香取市","name":"Katori, Chiba, Japan","lat":"35.8883251","lon":"140.4989877","_id":"vN6gjJkIgsrKwhot"}
-{"id":"Menasha","name":"Menasha, Calumet County, Wisconsin, United States of America","lat":"44.216405","lon":"-88.3671452636855","_id":"vUDAXhAY7mR7rc9U"}
-{"id":"東員町","name":"東原町, 大阪高槻京都線, Suita, Mishima District, Osaka Prefecture, Kinki Region, Japan","lat":"34.7726316","lon":"135.5294808","_id":"vdZXBZPe1ImzAkXM"}
-{"id":"Washtenaw","name":"Washtenaw County, Michigan, United States of America","lat":"42.2582044","lon":"-83.8440853","_id":"vjpEV8lLCDJEdx5f"}
-{"id":"上海市","name":"Shanghai, Huangpu District, Shanghai, People's Republic of China","lat":"31.2253441","lon":"121.4888922","_id":"vv8vqgL29p06NleP"}
-{"id":"福州市","name":"Fuzhou, Gulou District, Fuzhou City, Fujian, People's Republic of China","lat":"26.0774554","lon":"119.2915465","_id":"wLIxTJLJokbbROHg"}
-{"id":"千代田区","name":"Chiyoda, Tokyo, Kantō, Japan","lat":"35.6885203","lon":"139.7514388","_id":"wOaM7CLvDPlxrnxt"}
-{"id":"Seoul","name":"Seoul, South Korea","lat":"37.5710824","lon":"126.9953036","_id":"wWFFm2ePSnU5a0pO"}
-{"id":"连云港市","name":"Lianyungang, 灌云县, Lianyungang City, Jiangsu, People's Republic of China","lat":"34.6092633","lon":"119.1695305","_id":"wjMyDcyHa9g49V2a"}
-{"id":"リオ・デ・ジャネイロ","name":"RJ, Southeast Region, Brazil","lat":"-22.2752762","lon":"-42.419415","_id":"xDqEbyzeWIh7Aspi"}
-{"id":"渭南市","name":"Weinan, Linwei District, Weinan City, Shaanxi, People's Republic of China","lat":"34.4976825","lon":"109.4859789","_id":"xMYcfSNzNpd7Hzj3"}
-{"id":"Lavonia","name":"Lavonia, Franklin County, Georgia, United States of America","lat":"34.4359361","lon":"-83.106818","_id":"xVUAhWF8MoDeH6IE"}
-{"id":"千歳市","name":"Chitose, Yubari District, Japan","lat":"42.8210658","lon":"141.6511407","_id":"xdAohQb6R2k90Bjx"}
-{"id":"滝川市","name":"Takikawa, Kabato District, Japan","lat":"43.5577","lon":"141.9105","_id":"xfumZJaJ2WIrdQ2n"}
-{"id":"河内長野市","name":"Kawachinagano, Minamikawachi District, Osaka Prefecture, Kinki Region, Japan","lat":"34.407997","lon":"135.574379","_id":"xijXboRoZfFWZ2dG"}
-{"id":"中山區","name":"Zhongshan District, Liupanshui City, Guizhou, People's Republic of China","lat":"26.8007744","lon":"104.648009563919","_id":"xp2MTtv5qlybHf4m"}
-{"id":"名古屋市","name":"Nagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.183333","lon":"136.9","_id":"xsW6OlFAUgRbPBnZ"}
-{"id":"Province Sud","name":"Province Sud, New Caledonia, France, Nouvelle-Calédonie, Grande Terre et récifs d'Entrecasteaux (eaux territoriales)","lat":"-22.1822828","lon":"166.541140696917","_id":"xzSr3uQGSkdcPeR5"}
-{"id":"Guangdong Province","name":"Guangdong Province, People's Republic of China","lat":"23.1357694","lon":"113.1982688","_id":"y2ZXb5OiCkQOUIjx"}
-{"id":"Kitanagoya","name":"Kitanagoya, Chita, Aichi, Chubu Region, Japan","lat":"35.2458645","lon":"136.871992","_id":"yOlmRcH6aRa7ZGol"}
-{"id":"滝川市","name":"Takikawa, Kabato District, Japan","lat":"43.5577","lon":"141.9105","_id":"yjKB5z5t9nohpIfd"}
-{"id":"江東区","name":"Koto, Tokyo, Kantō, Japan","lat":"35.6726796","lon":"139.8169114","_id":"ys3uVajfzbc8MnAl"}
-{"id":"白银市","name":"Baiyin, Baiyin District, Baiyin, Gansu, People's Republic of China","lat":"36.5519459","lon":"104.1466384","_id":"yvaUt2HMXp3QuD8m"}
-{"id":"Ester","name":"Ester, Landkreis Rosenheim, Upper Bavaria, Free State of Bavaria, Germany, European Union","lat":"47.9097157","lon":"12.0477963","_id":"yyQKQCpyi2PRpWGM"}
-{"id":"Portsmouth","name":"Portsmouth, South East England, England, United Kingdom","lat":"50.81842365","lon":"-1.08087406133344","_id":"zC4a5GdyzoczvA72"}
-{"id":"さいたま市","name":"Saitama, Kita-Adachi, Saitama, Japan","lat":"35.8994072","lon":"139.6536855","_id":"zPKoZHSqQS5VJNzU"}
-{"id":"Carlisle","name":"Carlisle, Cumberland County, Pennsylvania, United States of America","lat":"40.201824","lon":"-77.1893888","_id":"zb0zHMjQcmhOpIMh"}
-{"id":"富士吉田市","name":"Fujiyoshida, Yamanashi, Chubu Region, Japan","lat":"35.5090154","lon":"138.8052326","_id":"zcKBWOsB1qmkg6dy"}
-{"id":"大阪市 此花区","name":"Konohana Ward, Senboku District, Osaka Prefecture, Kinki Region, Japan","lat":"34.670951","lon":"135.422471","_id":"zeTUXG5GnRrRsJ0i"}
-{"id":"纽约","name":"New York City, New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"zshQv7HvGvXFUVcZ"}
+{"id":"Prachin Buri","name":"Prachin Buri, Thailand","lat":"13.80972005","lon":"102.104163618885","_id":"PhUeqQdf7iOCATmv"}
+{"id":"Ester","name":"Upper Bavaria, Germany","lat":"47.9097157","lon":"12.0477963","_id":"r5637TE6YreGfbkO"}
+{"id":"连云港市","name":"Lianyungang City, People's Republic of China","lat":"34.6092633","lon":"119.1695305","_id":"UGXsKP1w18m18Q1t"}
+{"id":"River Valley","name":"Pennsylvania, United States of America","lat":"40.5461787","lon":"-79.8214385","_id":"R0PKS4z4IXolPA5k"}
+{"id":"Singapore","name":"Singapore, Singapore","lat":"1.2904527","lon":"103.852038","_id":"GRt0XEZai355urTO"}
+{"id":"攀枝花市","name":"Panzhihua City, People's Republic of China","lat":"26.69721875","lon":"101.724482681822","_id":"ouyEsPHPzDwXdj8o"}
+{"id":"성남시","name":"Gyeonggi-do, South Korea","lat":"37.4201556","lon":"127.1262092","_id":"WPq0J4YoWiE09sWk"}
+{"id":"中山區","name":"Liupanshui City, People's Republic of China","lat":"26.8007744","lon":"104.648009563919","_id":"RAHZPx7wolviZyYo"}
+{"id":"里士满","name":"Russian Federation","lat":"64.6863136","lon":"97.7453061","_id":"ZrZm7GU8vI5FZdhq"}
+{"id":"Norman","name":"Oklahoma, United States of America","lat":"35.2225717","lon":"-97.4394816","_id":"Rnw4SQwSeRw7xt2c"}
+{"id":"Beawar","name":"Ajmer, India","lat":"26.08805","lon":"74.3074118422819","_id":"uomUqpKLNRyphDVk"}
+{"id":"北區","name":"North District, Republic of China","lat":"22.999492","lon":"120.202975","_id":"q8Ch15T4Z2AoMl58"}
+{"id":"Changwat Udon Thani","name":"Udon Thani Proivnce, Thailand","lat":"17.45643995","lon":"102.836513312254","_id":"kB5Gh2ai0TiAvP9Y"}
+{"id":"Arlington","name":"Texas, United States of America","lat":"32.735687","lon":"-97.1080656","_id":"ppL3osbxEPPgNLty"}
+{"id":"さいたま市","name":"Saitama, Japan","lat":"35.8994072","lon":"139.6536855","_id":"MiaxcDRXPPrcC2Mv"}
+{"id":"Geylang","name":"Singapore, Singapore","lat":"1.3181862","lon":"103.8870563","_id":"bkC7tDEg51LQNdaE"}
+{"id":"名古屋市","name":"Aichi, Japan","lat":"35.183333","lon":"136.9","_id":"87TnT5gG5XnvGqSo"}
+{"id":"千代田区","name":"Tokyo, Japan","lat":"35.6885203","lon":"139.7514388","_id":"IiuMNqmFyQEFfTtt"}
+{"id":"Guangdong Province","name":"Guangdong Province, People's Republic of China","lat":"23.1357694","lon":"113.1982688","_id":"16VUkTf2H2591edk"}
+{"id":"上海市","name":"Shanghai, People's Republic of China","lat":"31.2253441","lon":"121.4888922","_id":"ugFgHTND8rby3gcA"}
+{"id":"Caudebec-en-Caux","name":"Upper Normandy, France","lat":"49.525364","lon":"0.724685","_id":"xhvrU66DiBE5EPyB"}
+{"id":"北京市","name":"Beijing, People's Republic of China","lat":"40.2505379","lon":"116.625088590652","_id":"tkvFYWqlVHYy1Ypn"}
+{"id":"南京市","name":"Nanjing City, People's Republic of China","lat":"32.0609158","lon":"118.7916065","_id":"SIyg0U3oSbKYwQO7"}
+{"id":"Richmond","name":"Virginia, United States of America","lat":"37.5385087","lon":"-77.43428","_id":"p1UUum0twoOJ1NuJ"}
+{"id":"Parkville","name":"Maryland, United States of America","lat":"39.3773292","lon":"-76.5396875","_id":"4K8j1bT8Sdo6sEse"}
+{"id":"藤枝市","name":"藤枝市 (Fujieda), Japan","lat":"34.8493374","lon":"138.2522114","_id":"iIKu25GH6eI4XJX5"}
+{"id":"晋中市","name":"Jinzhong City, People's Republic of China","lat":"37.6731633","lon":"112.7439068","_id":"ZQK7jyuWP1AWTGXR"}
+{"id":"兰州市","name":"Lanzhou, People's Republic of China","lat":"36.0612545","lon":"103.8318602","_id":"6lvMvhLblgxTHYei"}
+{"id":"Higashihiroshima","name":"Hiroshima Prefecture, Japan","lat":"34.4268575","lon":"132.7435593","_id":"ruTXQFx2j93xaTND"}
+{"id":"萍乡市","name":"Pingxiang City, People's Republic of China","lat":"27.6260249","lon":"113.849129","_id":"ny7CYIXV87vxJSSM"}
+{"id":"中區","name":"Central District, Republic of China","lat":"24.142135","lon":"120.680464710586","_id":"IIx79wPOUg1vXKGX"}
+{"id":"重庆市","name":"Central Chongqing, People's Republic of China","lat":"29.5585712","lon":"106.5492822","_id":"H5K25hyinJyVvaMW"}
+{"id":"鳥取市","name":"Tottori Prefecture, Japan","lat":"35.493999","lon":"134.2257939","_id":"oVHdWiDCXZqBxzs0"}
+{"id":"延岡市","name":"Kyushu Region, Japan","lat":"32.664409","lon":"131.657243","_id":"p4w4CbHHtFmVr9cS"}
+{"id":"沈阳市","name":"Shenyang City, People's Republic of China","lat":"41.8045293","lon":"123.4277858","_id":"yIUmCK5WNt8IwgcX"}
+{"id":"Mihama-Ku, Chiba","name":"Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"mRq0lwIBMGfyunwv"}
+{"id":"水戸市","name":"Ibaraki, Japan","lat":"36.3825815","lon":"140.405123811532","_id":"lp9cajQdkGJSPIyq"}
+{"id":"東京都","name":"Tokyo, Japan","lat":"35.69004135","lon":"139.510395073475","_id":"EP8RFzr8O2nZPyn0"}
+{"id":"Gansu Sheng","name":"Gansu Province, People's Republic of China","lat":"38.0000001","lon":"101.9999999","_id":"2takUezEA1866jJ7"}
+{"id":"사상구","name":"Busan, South Korea","lat":"35.1624759","lon":"128.9887191","_id":"EK35F6uAX9j6kV0Q"}
+{"id":"北区","name":"North District, Republic of China","lat":"22.999492","lon":"120.202975","_id":"AWfGw1E1dVcXi4Q5"}
+{"id":"Ribeira Grande","name":"Territorial waters of São Miguel and Santa Maria","lat":"37.8229295","lon":"-25.520221","_id":"5Ac9EuqM8dQNsMMq"}
+{"id":"哥本哈根","name":"Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"oT6pSdGPJipEuv8t"}
+{"id":"栗原市","name":"Sakhalin Oblast, Russian Federation","lat":"46.9574273","lon":"142.727438","_id":"NRHkcjRGVBvNoKZy"}
+{"id":"Bangkok","name":"Bangkok, Thailand","lat":"13.5859271","lon":"100.416084040605","_id":"VBvYrRAYzBhiGHIf"}
+{"id":"佛山市","name":"Guangdong, People's Republic of China","lat":"23.0249168","lon":"113.1146174","_id":"sZA8loPeIET7euSR"}
+{"id":"会津若松市","name":"Fukushima, Japan","lat":"37.4911389","lon":"139.932925","_id":"XJqSPq1820A9GaUA"}
+{"id":"リオ・デ・ジャネイロ","name":"RJ, Brazil","lat":"-22.2752762","lon":"-42.419415","_id":"g8JMkNvOMrKjwwGj"}
+{"id":"Chittagong","name":"Chittagong Division, Bangladesh","lat":"22.3256945","lon":"92.1191345993169","_id":"wJFXoBU0t9wvYZDA"}
+{"id":"天津市","name":"Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"G4CE7SmBi7ZfKjpX"}
+{"id":"Tampines","name":"Singapore, Singapore","lat":"1.3546528","lon":"103.9435712","_id":"qlMj5XlRL4O0WCGR"}
+{"id":"龜山鄉","name":"Taiwan Province, Republic of China","lat":"24.992517","lon":"121.337767","_id":"dEMKVZlIjUADxbnR"}
+{"id":"成都市","name":"Chengdu City, People's Republic of China","lat":"30.6765553","lon":"104.0612783","_id":"2wSZeY0HOKrWJg7c"}
+{"id":"台東区","name":"Kitakatsushika, Japan","lat":"35.7152388","lon":"139.78779","_id":"qkIE4GjRnVkQZ048"}
+{"id":"保定市","name":"Baoding City, People's Republic of China","lat":"39.0925359","lon":"115.334799831456","_id":"rp0EKbOkQH40sKn4"}
+{"id":"千葉市 美浜区","name":"Chiba, Japan","lat":"35.6331785","lon":"140.063158873754","_id":"I1wNFjQBygdSsZlw"}
+{"id":"Tuscany","name":"Tuscany, Italy","lat":"43.4586541","lon":"11.1389204","_id":"vOVKIin598eqLNMx"}
+{"id":"Chicago","name":"Illinois, United States of America","lat":"41.8756208","lon":"-87.6243706","_id":"GJTn37IghYyILkH6"}
+{"id":"Great Neck Estates","name":"New York, United States of America","lat":"40.7870459","lon":"-73.7367983","_id":"9ITsbLdXl9OhKsEd"}
+{"id":"Plovdiv","name":"Южен-централен район за планиране, Bulgaria","lat":"42.1419118","lon":"24.7498385","_id":"ljtwnUjRkbYvGsXG"}
+{"id":"New York","name":"New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"EgrsAOhgSWxGjv4A"}
+{"id":"Killarney","name":"Munster, Ireland","lat":"52.0595746","lon":"-9.505322","_id":"iFsE1OrOSeiWkFZc"}
+{"id":"Falkirk","name":"Scotland, United Kingdom","lat":"55.997286","lon":"-3.7868533","_id":"a7GOBpuu51lSllLv"}
+{"id":"Rio Grande do Norte","name":"RN, Brazil","lat":"-5.6781175","lon":"-36.4781776","_id":"86qZzSJRp2d8UzU2"}
+{"id":"千葉市","name":"Chiba, Japan","lat":"35.6041015","lon":"140.180898814268","_id":"T4RoNXvkTBS2Cfa7"}
+{"id":"那須塩原市","name":"Kantō, Japan","lat":"36.995985","lon":"139.9371045","_id":"pCwQV8ehPZGDdpAb"}
+{"id":"Toronto","name":"Ontario, Canada","lat":"43.6529206","lon":"-79.3849008","_id":"ZY1RNYOckE2FUWPI"}
+{"id":"江東区","name":"Tokyo, Japan","lat":"35.6726796","lon":"139.8169114","_id":"sWAZXuyouo3NlIXh"}
+{"id":"恵庭市","name":"Eniwa, Japan","lat":"42.8828665","lon":"141.577406578556","_id":"3JJAvpAy8FJEAZpW"}
+{"id":"Pismo Beach","name":"California, United States of America","lat":"35.1478715","lon":"-120.678291095752","_id":"3rh9KDyb22u88Fx6"}
+{"id":"泸州市","name":"Luzhou City, People's Republic of China","lat":"28.50043155","lon":"105.426526680747","_id":"D3GsEnSCHTKWom6d"}
+{"id":"Tianjin Shi","name":"Tianjin, People's Republic of China","lat":"39.1235635","lon":"117.1980785","_id":"tiotl2KeoWlH3MAS"}
+{"id":"滝川市","name":"Takikawa, Japan","lat":"43.5577","lon":"141.9105","_id":"3NS7M5Rql648ix4q"}
+{"id":"St Peters","name":"Missouri, United States of America","lat":"38.8010514","lon":"-90.627881","_id":"nBxfxU75C2nwtvja"}
+{"id":"纽约","name":"New York, United States of America","lat":"40.7305991","lon":"-73.9865812","_id":"iFLBMnmhhBSgzeYh"}
+{"id":"盐城市","name":"Yancheng City, People's Republic of China","lat":"33.5175875","lon":"120.084506119326","_id":"C04psU0j2IVXkw3i"}
+{"id":"Lavonia","name":"Georgia, United States of America","lat":"34.4359361","lon":"-83.106818","_id":"hZV3LEfBDuVAydIE"}
+{"id":"뉴욕","name":"New York, United States of America","lat":"43.1561681","lon":"-75.8449946","_id":"j1YEhhZWEh4rpA18"}
+{"id":"Mississauga","name":"Ontario, Canada","lat":"43.5892854","lon":"-79.6441646","_id":"HYZUpmmuIABitKKx"}
+{"id":"鎌倉市","name":"Kanagawa, Japan","lat":"35.320524","lon":"139.5467669","_id":"maOJsFsDOQpALzcS"}
+{"id":"Portsmouth","name":"South East England, United Kingdom","lat":"50.81842365","lon":"-1.08087406133344","_id":"HCK6to0vDOp9PIPR"}
+{"id":"深圳市","name":"Shenzhen City, People's Republic of China","lat":"22.5462321","lon":"114.0570068","_id":"8hrhtn2L2uT1prpw"}
+{"id":"西屯區","name":"Xitun District, Republic of China","lat":"24.1845021","lon":"120.623667687959","_id":"FcjPc6kS8hvG59GG"}
+{"id":"Zhuhai","name":"Guangdong, People's Republic of China","lat":"22.2657516","lon":"113.568045","_id":"broIpIFctCqCrtN0"}
+{"id":"台南市","name":"Tainan City, Republic of China","lat":"23.1724781","lon":"120.2793633","_id":"yt7iOFkwi5KC3BiQ"}
+{"id":"南阳市","name":"Nanyang City, People's Republic of China","lat":"33.03907595","lon":"112.190857704512","_id":"rlyQ7rhB5B0zRfGx"}
+{"id":"南阳市","name":"Nanyang City, People's Republic of China","lat":"33.03907595","lon":"112.190857704512","_id":"NNdzE2WpZZf6yvU6"}
+{"id":"Tanah Abang","name":"South Sumatra, Indonesia","lat":"-4.0651956","lon":"103.642293","_id":"Ld6oe6tHkrVFPvLK"}
+{"id":"Tanah Abang","name":"South Sumatra, Indonesia","lat":"-4.0651956","lon":"103.642293","_id":"VRDgicEBdj7MuTTM"}
+{"id":"Tanah Abang","name":"South Sumatra, Indonesia","lat":"-4.0651956","lon":"103.642293","_id":"barV882q3XKezc6M"}
+{"id":"Albany","name":"New York, United States of America","lat":"42.6511674","lon":"-73.754968","_id":"RjL9fiRvsNHrYh0e"}
+{"id":"Albany","name":"New York, United States of America","lat":"42.6511674","lon":"-73.754968","_id":"5nfofxIobZD18VGD"}
+{"id":"Albany","name":"New York, United States of America","lat":"42.6511674","lon":"-73.754968","_id":"C0ujWFodKrGkZ2xS"}
+{"id":"Albany","name":"New York, United States of America","lat":"42.6511674","lon":"-73.754968","_id":"2ld38PS0iK5HBGPL"}
+{"id":"哈尔滨市","name":"Harbin City, People's Republic of China","lat":"45.3675822","lon":"127.406080874315","_id":"BIv2E4uNwqt5OFAM"}
+{"id":"哈尔滨市","name":"Harbin City, People's Republic of China","lat":"45.3675822","lon":"127.406080874315","_id":"lljkWPMfvUXa8yAL"}
+{"id":"哈尔滨市","name":"Harbin City, People's Republic of China","lat":"45.3675822","lon":"127.406080874315","_id":"EXL4C6Em7ELUqK7X"}
+{"id":"哈尔滨市","name":"Harbin City, People's Republic of China","lat":"45.3675822","lon":"127.406080874315","_id":"ldJis8oYHYfzJ4d6"}
+{"id":"昆明市","name":"Kunming, People's Republic of China","lat":"25.049097","lon":"102.7081773","_id":"yxieAjTONPjp8pKT"}
+{"id":"昆明市","name":"Kunming, People's Republic of China","lat":"25.049097","lon":"102.7081773","_id":"GR0gAT8MFhOb9hE6"}
+{"id":"昆明市","name":"Kunming, People's Republic of China","lat":"25.049097","lon":"102.7081773","_id":"YTuTTZJSQhA3SD0F"}
+{"id":"昆明市","name":"Kunming, People's Republic of China","lat":"25.049097","lon":"102.7081773","_id":"dAAvO8HwtNSVZpul"}
+{"id":"昆明市","name":"Kunming, People's Republic of China","lat":"25.049097","lon":"102.7081773","_id":"6zlwD7RpmAkJI0bS"}
+{"id":"종로구","name":"Seoul, South Korea","lat":"37.5805313","lon":"126.9829451","_id":"OGmfsVr6QChCvyqr"}
+{"id":"堺市 南区","name":"Osaka Prefecture, Japan","lat":"34.4721205","lon":"135.505238","_id":"W3ZXdfDsOzWZDL9C"}
+{"id":"堺市 南区","name":"Osaka Prefecture, Japan","lat":"34.4721205","lon":"135.505238","_id":"8p7w4NbaU55RfW8d"}
+{"id":"小松市","name":"Komatsu, Japan","lat":"36.4032931","lon":"136.4495465","_id":"kj9YA9TZskaigF6i"}
+{"id":"小松市","name":"Komatsu, Japan","lat":"36.4032931","lon":"136.4495465","_id":"EteXTngwOc0RiFWR"}
+{"id":"堺市 南区","name":"Osaka Prefecture, Japan","lat":"34.4721205","lon":"135.505238","_id":"kAPbdLMdjRIbDVWO"}
+{"id":"沧州市","name":"Cangzhou City, People's Republic of China","lat":"38.2116238","lon":"116.83820082254","_id":"HYZKYjFuMhYrpjot"}
+{"id":"沧州市","name":"Cangzhou City, People's Republic of China","lat":"38.2116238","lon":"116.83820082254","_id":"zLrUsi4EoPVml0fi"}
+{"id":"沧州市","name":"Cangzhou City, People's Republic of China","lat":"38.2116238","lon":"116.83820082254","_id":"BQHngr0nuodPSFOW"}
+{"id":"コペンハーゲン","name":"Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"s3Pq1S4NI8defc4E"}
+{"id":"コペンハーゲン","name":"Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"3lViuxF9hL85hr7X"}
+{"id":"コペンハーゲン","name":"Capital Region of Denmark, Denmark","lat":"55.6867243","lon":"12.5700724","_id":"F9gvajnKQ1gcMzhs"}
+{"id":"衡阳市","name":"Hengyang City, People's Republic of China","lat":"26.79201115","lon":"112.500385650523","_id":"jaJxINW9N4d3Ntrd"}
+{"id":"衡阳市","name":"Hengyang City, People's Republic of China","lat":"26.79201115","lon":"112.500385650523","_id":"2GR4j3Nt8U5AWHHB"}
+{"id":"衡阳市","name":"Hengyang City, People's Republic of China","lat":"26.79201115","lon":"112.500385650523","_id":"p2rUlzhAKzVYlngB"}

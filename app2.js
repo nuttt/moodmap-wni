@@ -9,6 +9,8 @@ var request   = require('request'),
 /* Create Server */
 /* http://localhost:8080 */
 var server = restify.createServer();
+server.use(restify.jsonp());
+
 server.listen(8080);
 
 /* Routes */
@@ -351,7 +353,7 @@ function requestCityAndInsert(cityName, callback){
     if(obj.length > 0){
       newItem = {
         id: cityName,
-        name: obj[0].display_name,
+        name: getCityNameFromAddress(obj[0].address),
         lat: obj[0].lat,
         lon: obj[0].lon
       };
@@ -382,9 +384,14 @@ function getData(callback){
     callback(obj);
   });
 }
+function getCityNameFromAddress(address){
+  var city = address.state_district || address.state || address.city;
+  if(city) return city+", "+address.country;
+  else     return address.country;
+}
 function urlForReverseGeocode (lat, lng) {
   return "http://nominatim.openstreetmap.org/reverse?lat=" + lat +"&lon=" + lng + "&accept-language=en-us&format=json&zoom=18";
 }
 function urlForGeocode (str) {
-  return "http://nominatim.openstreetmap.org/search?q="+ str +"&format=json&accept-language=en-us&limit=1"
+  return "http://nominatim.openstreetmap.org/search?q="+ str +"&format=json&accept-language=en-us&limit=1&addressdetails=1"
 }
