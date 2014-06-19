@@ -224,7 +224,8 @@ function getReport(reports,repoid){
       photo_url: report.photo,
       mood: parseInt(report.skyfeel),
       name: report.name,
-      note: report.skytag
+      note: report.skytag,
+      adjective: report.adjective
     };
   }
 }
