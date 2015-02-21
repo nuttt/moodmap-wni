@@ -19,13 +19,13 @@ Features
 
 System Design
 -------------
-![image](presentation/design.png =600x)
+![image](/presentation/design.png?raw=true =600x)
 
 The data is retreived via an available script (from WeatherNews) which outputs daily reports in JSON format. Then some APIs are created to manipulate the data into the desired structure that can be used in the front-end easily. The front-end displays the map with the data that is got from the APIs.
 
 Architecture
 ------------
-![image](presentation/arch.png =600x)
+![image](/presentation/arch.png?raw=true =600x)
 
 The architectures can be explained better from the ground-up:
 
@@ -56,7 +56,7 @@ Installation
 ### Front-End
 1. First, you need to have a MapBox API key for custom maps. So you need to create an account in mapbox.com and create a custom map and grab a key. You can also customize the map color you want. My recommendation is `#62d2cb` for water color and `#fbfbfb` for land color in order to match perfectly with other component’s color of moodmap
 
-   ![image](presentation/mapbox.png)
+   ![image](/presentation/mapbox.png?raw=true)
  
    For example, this map key is `nuttt.ifb5eich`
 
