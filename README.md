@@ -3,9 +3,9 @@ MoodMap (Data Visualization)
 Introduction & Demo
 -------------------
 Click to view:
-[![Presentation](presentation/presentation.png =600x)](https://drive.google.com/file/d/0B_pDRSQKQvxoS0VYcy1HRGl0SHM/edit)
+[![Presentation](/presentation/presentation.png?raw=true =600x)](https://drive.google.com/file/d/0B_pDRSQKQvxoS0VYcy1HRGl0SHM/edit)
 
-[![Presentation](presentation/presentation2.png =600x)](https://drive.google.com/file/d/0B_pDRSQKQvxoS0VYcy1HRGl0SHM/edit)
+[![Presentation](/presentation/presentation2.png?raw=true =600x)](https://drive.google.com/file/d/0B_pDRSQKQvxoS0VYcy1HRGl0SHM/edit)
 
 Description
 ------------
